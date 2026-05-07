@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Version compacte 64x64 pour favicon, header mobile, etc. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <rect width="80" height="80" rx="12" fill="#003a70"/>
+  <g transform="translate(12 18)">
+    <rect x="0"  y="0"  width="20" height="5" rx="1.5" fill="#fff"/>
+    <rect x="4"  y="11" width="28" height="5" rx="1.5" fill="#fff"/>
+    <rect x="8"  y="22" width="36" height="5" rx="1.5" fill="#B91C1C"/>
+    <rect x="4"  y="33" width="28" height="5" rx="1.5" fill="#fff"/>
+    <rect x="0"  y="44" width="20" height="5" rx="1.5" fill="#fff"/>
+  </g>
+</svg>

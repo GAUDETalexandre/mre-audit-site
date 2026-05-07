@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Anti-flash : couleur de fond avant chargement de Tailwind */
+html, body {
+  background-color: #ffffff;
+  color: #1F2937;
+}
+
+/* Scroll smooth pour les ancres */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus accessibles (a11y) */
+*:focus-visible {
+  outline: 2px solid #003a70;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Style spécifique blocs de citation juridique */
+.citation-juridique {
+  background: #F0F9FF;
+  border-left: 4px solid #003a70;
+  padding: 1rem 1.25rem;
+  font-style: italic;
+  color: #1F2937;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+/* Animation discrète d'apparition */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-up {
+  animation: fadeUp 0.6s ease-out;
+}
