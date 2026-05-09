@@ -7,22 +7,24 @@ export default function Hero() {
         {/* Texte */}
         <div className="fade-up">
           <span className="inline-block bg-mre-bleu/10 text-mre-bleu text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full mb-5">
-            Regtech &amp; Fintech — Conformité documentaire
+            RegTech B2B française · Conformité documentaire institutionnelle
           </span>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-mre-bleu leading-tight tracking-tight">
-            Le moteur d'<span className="text-mre-rouge">audit documentaire</span>
+            L'audit <span className="text-mre-rouge">inter-documents</span>
             <br />
-            pour produits financiers.
+            de l'épargne réglementée.
           </h1>
 
           <p className="mt-6 text-lg md:text-xl text-mre-gris leading-relaxed">
-            MRE révèle les écarts entre vos contrats d'assurance vie, PER et
-            produits financiers et la réglementation
-            <strong> ACPR · AMF · DDA · PRIIPs · SFDR</strong>. <br />
-            Rapport ACPR-ready en
-            <strong className="text-mre-bleu"> 3 minutes</strong>, sans
-            hallucination, chaque écart sourcé.
+            MRE est la plateforme d'audit qui révèle les écarts factuels et
+            opposables entre les pièces d'un dossier d'épargne et le référentiel
+            réglementaire <strong>(PRIIPs · DDA · POG · SFDR · UCITS · Solvabilité&nbsp;2 ·
+            ACPR · AMF)</strong>. Conçue pour les <strong className="text-mre-bleu">directions
+            conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
+            et autorités de tutelle</strong>. 46 détecteurs en production, chaque
+            écart sourcé verbatim — article cité, considérant UE, sanction de
+            précédent.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -30,28 +32,28 @@ export default function Hero() {
               href="#demo"
               className="inline-flex items-center justify-center gap-2 bg-mre-bleu text-white font-semibold px-6 py-3.5 rounded-lg hover:bg-mre-bleu/90 transition-colors shadow-md"
             >
-              Voir la démo Mercier →
+              Voir un rapport d'écart →
             </a>
             <a
-              href="#solution"
+              href="#contact"
               className="inline-flex items-center justify-center gap-2 bg-white text-mre-bleu font-semibold px-6 py-3.5 rounded-lg border-2 border-mre-bleu/20 hover:border-mre-bleu transition-colors"
             >
-              Comment ça marche
+              Demander une démonstration institutionnelle
             </a>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-6 text-sm text-mre-gris">
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 218 détecteurs
+              <span className="text-green-600 font-bold">●</span> 78 032 PDF en bibliothèque vivante
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 0 hallucination
+              <span className="text-green-600 font-bold">●</span> 65+ tests verts
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 9,8/10 ACPR
+              <span className="text-green-600 font-bold">●</span> Anti-hallucination verbatim
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> Self-check intégré
+              <span className="text-green-600 font-bold">●</span> Souveraineté 100 % France/UE
             </span>
           </div>
         </div>

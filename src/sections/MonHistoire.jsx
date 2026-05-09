@@ -95,16 +95,33 @@ export default function MonHistoire() {
             <div className="mt-10 bg-gradient-to-br from-mre-bleu to-blue-900 text-white rounded-xl p-7">
               <div className="text-3xl mb-3">"</div>
               <p className="text-lg leading-relaxed italic">
-                MRE n'est pas un outil <strong>contre</strong> les conseillers
-                — j'en ai été un. C'est un outil <strong>pour</strong> les
-                conseillers, les RCSI, les médiateurs, l'ACPR : qui révèle
-                les écarts entre ce que les documents disent et ce que la
-                loi exige, sans inventer, sans juger, en 3 minutes.
+                MRE est un outil de <strong>contrôle interne et de pilotage
+                réglementaire</strong>, pas un outil de jugement. Il est conçu
+                pour les fonctions de conformité, d'audit et de tutelle :
+                révéler les écarts factuels entre les documents transmis et le
+                référentiel applicable, sans inventer, sans juger, et en
+                pointant à chaque ligne l'article et le verbatim source.
               </p>
               <p className="mt-4 text-sm text-blue-200">
-                C'est ce parcours technique et humain qui m'a permis de
-                penser MRE comme un outil de <strong>pilotage</strong> du
-                conseil, pas un outil de jugement.
+                Cette posture neutre est verrouillée dans le code par 4 valeurs
+                non-jugeantes (ALIGNE / TENSION / ECART_MAJEUR / ELEMENT_ABSENT)
+                et un self-check anti-hallucination 8 axes. C'est ce qui rend
+                MRE défendable en contradictoire devant l'ACPR, en médiation, ou
+                en audit interne.
+              </p>
+            </div>
+
+            <div className="mt-6 bg-mre-beige border-l-4 border-mre-bleu rounded-r-xl p-6">
+              <div className="text-xs font-bold uppercase tracking-widest text-mre-bleu mb-2">
+                Validation triple casquette — mai 2026
+              </div>
+              <p className="text-sm text-mre-ardoise leading-relaxed">
+                Évaluation indépendante du moteur sur dossiers réels selon la
+                grille d'un <strong>contrôleur ACPR + ingénieur RegTech senior +
+                conseiller patrimonial expérimenté</strong> : note moyenne
+                <strong> 9,8 / 10</strong> sur les axes neutralité, traçabilité,
+                couverture réglementaire, anti-hallucination. Antériorité PI
+                fixée par dépôt eSoleau du 19 avril 2026.
               </p>
             </div>
           </div>

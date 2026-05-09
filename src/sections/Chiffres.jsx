@@ -1,14 +1,14 @@
 import React from "react";
 
 const CHIFFRES = [
-  { valeur: "218", unite: "détecteurs", detail: "Couvrant Code des assurances, DDA, PRIIPs, SFDR, POG, LCB-FT, doctrine AMF" },
-  { valeur: "1,9", unite: "Mo de texte juridique", detail: "Considérants UE, sanctions ACPR, doctrines AMF — intégral en français" },
-  { valeur: "70", unite: "sanctions ACPR", detail: "Citées comme précédent jurisprudentiel sur chaque écart pertinent" },
-  { valeur: "9,8", unite: "/ 10 au benchmark ACPR", detail: "Triple casquette : ACPR · Audit interne · Conformité assureur" },
-  { valeur: "100", unite: "/ 100 self-check", detail: "8 axes auto-vérifiés avant publication — anti-hallucination" },
+  { valeur: "78 032", unite: "PDF en bibliothèque", detail: "Bibliothèque vivante, crawlers quotidien · hebdo · mensuel — 2 349 ISIN distincts couverts" },
+  { valeur: "13", unite: "textes réglementaires", detail: "PRIIPs · DDA · SFDR · UCITS · POG · Solvabilité 2 · Code assurances · Code mutualité · CGI · ACPR · AMF · Loi Industrie Verte · ESAP" },
+  { valeur: "46", unite: "détecteurs DIC actifs", detail: "9 couches d'audit (A à I + M Couche fonds problématiques) — chaque détecteur sourcé verbatim" },
+  { valeur: "65+", unite: "tests automatisés", detail: "100 % en vert — anti-régression, vérifs anti-hallucination, témoins négatifs" },
+  { valeur: "70", unite: "sanctions ACPR/AMF", detail: "Citées comme précédent jurisprudentiel sur chaque écart pertinent — H2O 75 M€, BNPP Cardif, AXA IM, Boursorama" },
   { valeur: "3", unite: "minutes par dossier", detail: "Vs ~8 h en audit manuel par un juriste" },
-  { valeur: "22 500", unite: "lignes de code", detail: "Écrites main, sans no-code, sans framework propriétaire" },
-  { valeur: "24/7", unite: "bibliothèque vivante", detail: "Crawlers tournent quotidiennement, hebdo, mensuel selon données" },
+  { valeur: "100 %", unite: "souveraineté France/UE", detail: "Infrastructure Scaleway + OVH — aucune dépendance cloud US, conforme priorité commande publique 2026+" },
+  { valeur: "0", unite: "hallucination", detail: "Patterns + verbatim cité du document source — règle de gouvernance verrouillée dans le code" },
 ];
 
 export default function Chiffres() {
@@ -51,8 +51,13 @@ export default function Chiffres() {
           <div className="text-4xl mb-3">🛡️</div>
           <p className="text-lg text-blue-100 italic">
             Aucun chiffre inventé. Aucun document non lu. Aucune référence
-            réglementaire approximative. C'est ce qui rend MRE crédible pour un
-            usage ACPR, RCSI, médiateur — et pour la création.
+            réglementaire approximative. C'est ce niveau d'exigence que requiert
+            un usage en direction conformité, contrôle permanent, audit interne
+            et autorité de tutelle.
+          </p>
+          <p className="mt-6 text-sm text-blue-200">
+            Antériorité PI fixée par dépôt eSoleau du 19 avril 2026.
+            Souveraineté 100 % France/UE par construction (Scaleway · OVH · Mistral).
           </p>
         </div>
       </div>

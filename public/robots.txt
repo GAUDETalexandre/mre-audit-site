@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /pack/
+Disallow: /*.pdf$
+
+Sitemap: https://mre-audit.fr/sitemap.xml

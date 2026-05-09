@@ -46,13 +46,14 @@ export default function BiblioVivante() {
             Bibliothèque vivante
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-mre-bleu mt-3">
-            La biblio MRE n'est pas figée — elle s'auto-alimente.
+            Une bibliothèque vivante, autonome, traçable.
           </h2>
           <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-lg">
-            Pendant que vous lisez ces lignes, un crawler MRE est probablement
-            en train de tourner sur le site de l'ACPR ou sur l'API d'un
-            assureur. Voici à quelle cadence chaque type de donnée est
-            rafraîchi :
+            MRE industrialise la consultation des sources légalement obligées de
+            publier (Article 5 Règlement UE 1286/2014 PRIIPs, sites ACPR / AMF /
+            EUR-Lex / EFAMA). 19 crons en production, 78 K PDF, 2 349 ISIN
+            distincts couverts au 9 mai 2026. Cap couverture France ≥ 95 % à
+            fin 2028, à coût marginal d'infrastructure (3-5 K€/an).
           </p>
         </div>
 

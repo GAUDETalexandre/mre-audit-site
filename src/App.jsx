@@ -7,6 +7,7 @@ import DemoMercier from "./sections/DemoMercier.jsx";
 import BiblioVivante from "./sections/BiblioVivante.jsx";
 import Extensibilite from "./sections/Extensibilite.jsx";
 import Chiffres from "./sections/Chiffres.jsx";
+import PackInstitutionnel from "./sections/PackInstitutionnel.jsx";
 import MonHistoire from "./sections/MonHistoire.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./components/Footer.jsx";
@@ -23,6 +24,7 @@ export default function App() {
         <BiblioVivante />
         <Extensibilite />
         <Chiffres />
+        <PackInstitutionnel />
         <MonHistoire />
         <Contact />
       </main>

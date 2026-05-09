@@ -9,33 +9,44 @@ export default function Probleme() {
             Le constat
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-mre-bleu mt-3">
-            Aujourd'hui, la conformité documentaire est l'angle mort de l'épargne française.
+            La cohérence documentaire de l'épargne réglementée n'est aujourd'hui
+            auditée par personne — à l'échelle.
           </h2>
+          <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-base">
+            2 107 Md€ d'assurance-vie · 118,9 Md€ de PER (France Assureurs 2025).
+            ~ 12 000 acteurs supervisés face à ~ 1 500 ETP ACPR + AMF cumulés.
+            Chaque contrat = 30-50 documents sur sa durée de vie. L'asymétrie
+            est structurelle.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mt-12">
           <Carte
             chiffre="60 %"
             titre="des dossiers contrôlés"
-            detail="ont une note de conseil L521-2 défaillante (priorité ACPR 2024-R-03)"
+            detail="présentent un manquement au devoir de conseil L521-2 / DDA art. 20 — priorité ACPR Reco 2024-R-03"
           />
           <Carte
             chiffre="12 / 15"
-            titre="groupes français"
-            detail="ont plus de 50 % de supports intra-groupe en gestion pilotée (étude AMF 10 juin 2021)"
+            titre="grands groupes français"
+            detail="ont plus de 50 % de supports intra-groupe en gestion pilotée AV (étude AMF, juin 2021) — point de vigilance gouvernance produit"
           />
           <Carte
-            chiffre="8 h"
-            titre="par dossier"
-            detail="temps moyen d'audit manuel par un juriste — non scalable"
+            chiffre="75 M€"
+            titre="sanction H2O AM (2022)"
+            detail="confirmée par le Conseil d'État (juin 2025) — illustration matérielle de l'écart entre documents commerciaux et illiquidité réelle"
           />
         </div>
 
         <div className="mt-14 max-w-3xl mx-auto bg-mre-beige border-l-4 border-mre-rouge p-6 rounded-r-lg">
           <p className="text-mre-ardoise text-lg italic leading-relaxed">
-            « Le devoir de conseil est un pilier juridique. Mais sans outil capable
-            de le contrôler à l'échelle, c'est une promesse vide pour les 38
-            millions de Français qui ont un contrat d'assurance vie. »
+            « Aucune direction conformité n'a la capacité humaine d'auditer
+            individuellement la cohérence inter-documents de chaque dossier
+            d'épargne distribué. Les outils du marché vérifient un aspect
+            (KYC, LCB-FT, classification PRIIPs) sans <strong>mettre les pièces en
+            regard les unes des autres</strong>. C'est précisément ce manque que
+            MRE adresse — pour les directions conformité, l'audit interne, le
+            contrôle permanent et les autorités de tutelle. »
           </p>
         </div>
       </div>

@@ -13,13 +13,23 @@ const ETAPES = [
   },
   {
     n: "03",
-    titre: "218 détecteurs en parallèle",
-    detail: "Chaque écart est sourcé : article CdA / DDA / PRIIPs cité, considérant UE intégral, sanction ACPR de précédent (CARCO 2023-03, Mutex 2022…).",
+    titre: "9 couches d'audit en parallèle",
+    detail: "46 détecteurs DIC + détecteurs cross-niveau. Chaque écart sourcé : article CdA / DDA / PRIIPs / SFDR / UCITS cité, considérant UE intégral, sanction ACPR de précédent (H2O 75 M€, BNPP Cardif, Boursorama).",
   },
   {
     n: "04",
+    titre: "Détection fonds problématiques",
+    detail: "Couche M unique sur le marché : illiquidité type H2O AM (side-pocket, PE > 20 % en UCITS, délai paiement > 7j), concentration type fonds IA (top 10 > 80 %, secteur > 70 %, géo > 90 %, benchmark ad-hoc).",
+  },
+  {
+    n: "05",
+    titre: "Notifications matérielles automatiques",
+    detail: "Cron quotidien détecte les changements matériels (downgrade SFDR, fusion initiateur, hausse frais, side-pocket apparu). Mail digest 8h + tableau de suivi avec 4 statuts pour audit ACPR.",
+  },
+  {
+    n: "06",
     titre: "Rapport ACPR-ready",
-    detail: "Synthèse 1 page + détail complet. Self-check intégré 8 axes vérifie automatiquement la cohérence avec les documents source. Aucun chiffre inventé.",
+    detail: "Synthèse 1 page + détail complet. Self-check intégré 8 axes vérifie la cohérence avec les documents source. Aucun chiffre inventé.",
   },
 ];
 
@@ -32,11 +42,15 @@ export default function Solution() {
             La solution
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-mre-bleu mt-3">
-            De 8 heures d'audit manuel à 3 minutes de diagnostic sourcé.
+            Un moteur d'audit inter-documents, pensé pour les fonctions de contrôle.
           </h2>
           <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-lg">
-            MRE est un moteur d'extraction → cascade → diagnostic, conçu pour
-            l'audit documentaire ACPR / RCSI / médiateur.
+            MRE industrialise la mise en regard des pièces du dossier client avec
+            le référentiel réglementaire. Conçu pour les <strong>directions
+            conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
+            et autorités de tutelle</strong>. De 8 heures d'audit manuel par
+            juriste senior à 3 minutes de diagnostic sourcé verbatim, traçable et
+            opposable.
           </p>
         </div>
 

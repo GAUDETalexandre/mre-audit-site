@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 const NAV = [
-  { id: "probleme", label: "Le problème" },
+  { id: "probleme", label: "Constat" },
   { id: "solution", label: "Solution" },
   { id: "demo", label: "Démo" },
-  { id: "biblio", label: "Bibliothèque" },
+  { id: "biblio", label: "Bibliothèque vivante" },
   { id: "extension", label: "Extension produits" },
-  { id: "histoire", label: "Mon histoire" },
+  { id: "pack", label: "Pack institutionnel" },
+  { id: "histoire", label: "Fondateur" },
   { id: "contact", label: "Contact" },
 ];
 
