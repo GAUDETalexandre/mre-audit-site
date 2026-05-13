@@ -5,7 +5,9 @@ const ETAPES = [
   { annee: "2016", titre: "CGPC validé", detail: "Obtention du Certificat de Gestion de Patrimoine Certifié — diplôme de référence du conseil patrimonial, exigeant et technique." },
   { annee: "2018", titre: "Agent général A2P", detail: "Création de ma propre structure : agent général AXA Prévoyance et Patrimoine. Quatre années à porter mon agence et tenir le devoir de conseil au quotidien." },
   { annee: "2022", titre: "RQTH", detail: "Fermeture de l'entreprise pour raison de santé. Reconnaissance Travailleur Handicapé. Une rupture qui m'a permis de regarder le métier autrement." },
-  { annee: "2024-2026", titre: "Construction de MRE", detail: "Conception et développement du moteur. Vingt-deux mille lignes de code écrites main. Mai 2026 : premières analyses sur dossiers réels, note 9,8/10 ACPR triple casquette." },
+  { annee: "13 avril 2026", titre: "Démarrage de MRE", detail: "Lancement du projet. Conception de l'architecture, des 152 détecteurs métier, de la bibliothèque vivante. Quinze années de terrain incorporées dans la logique du moteur." },
+  { annee: "Mai 2026", titre: "Méthode IA-assistée", detail: "Construction en sprint intensif de 4 semaines. Méthode : vision métier humaine + assistance IA générative pour l'écriture du code, des tests et de la documentation. L'IA accélère l'exécution ; chaque détecteur résulte d'une décision experte humaine. Cohérent avec la philosophie du produit : l'IA lit, l'expert décide, le rapport cite." },
+  { annee: "Demain", titre: "TIH + Entreprise Adaptée", detail: "MRE Audit sera enregistré au statut Travailleur Indépendant Handicapé dès la création SASU. Engagement Entreprise Adaptée dès la première embauche (cadre L. 5213-13 à L. 5213-19 Code travail, ≥ 55 % salariés en situation de handicap). 100 % à horizon 24 mois." },
 ];
 
 export default function MonHistoire() {

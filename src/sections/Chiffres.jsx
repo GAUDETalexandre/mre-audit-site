@@ -1,14 +1,14 @@
 import React from "react";
 
 const CHIFFRES = [
-  { valeur: "78 032", unite: "PDF en bibliothèque", detail: "Bibliothèque vivante, crawlers quotidien · hebdo · mensuel — 2 349 ISIN distincts couverts" },
+  { valeur: "41 631", unite: "PDF en bibliothèque", detail: "Bibliothèque vivante au 12/05/2026 · 79 108 versions historisées · 16 319 ISIN watchlist · découverte ESMA FIRDS automatique" },
+  { valeur: "152", unite: "détecteurs en production", detail: "23 domaines métier (PRIIPs · DDA · POG · SFDR · Solvabilité 2 · fiscalité · eurocroissance · Loi Industrie Verte · structurés · Sapin 2)" },
   { valeur: "13", unite: "textes réglementaires", detail: "PRIIPs · DDA · SFDR · UCITS · POG · Solvabilité 2 · Code assurances · Code mutualité · CGI · ACPR · AMF · Loi Industrie Verte · ESAP" },
-  { valeur: "46", unite: "détecteurs DIC actifs", detail: "9 couches d'audit (A à I + M Couche fonds problématiques) — chaque détecteur sourcé verbatim" },
-  { valeur: "65+", unite: "tests automatisés", detail: "100 % en vert — anti-régression, vérifs anti-hallucination, témoins négatifs" },
-  { valeur: "70", unite: "sanctions ACPR/AMF", detail: "Citées comme précédent jurisprudentiel sur chaque écart pertinent — H2O 75 M€, BNPP Cardif, AXA IM, Boursorama" },
-  { valeur: "3", unite: "minutes par dossier", detail: "Vs ~8 h en audit manuel par un juriste" },
-  { valeur: "100 %", unite: "souveraineté France/UE", detail: "Infrastructure Scaleway + OVH — aucune dépendance cloud US, conforme priorité commande publique 2026+" },
-  { valeur: "0", unite: "hallucination", detail: "Patterns + verbatim cité du document source — règle de gouvernance verrouillée dans le code" },
+  { valeur: "49 / 49", unite: "certification AMADEO", detail: "100 % des vérifications-clés conformes sur le dossier témoin AMADEO Excellence Vie · 13 PDFs croisés contre 13 textes" },
+  { valeur: "334", unite: "tests sentinelles verts", detail: "Non-régression automatisée à chaque évolution · anti-hallucination, témoins négatifs, anti-faux-positifs" },
+  { valeur: "< 0,30 €", unite: "coût IA / dossier complexe", detail: "Couche IA Mistral souveraine allumée à la demande · 95 % du temps éteinte · marge brute > 99 %" },
+  { valeur: "100 %", unite: "souveraineté France/UE", detail: "Scaleway France · OVH · modèle IA Mistral open-source Apache 2.0 · aucune dépendance cloud US · conforme commande publique 2026+" },
+  { valeur: "0", unite: "hallucination", detail: "Patterns + verbatim cité du document source · règle de gouvernance verrouillée dans le code · l'IA lit, l'expert décide, le rapport cite" },
 ];
 
 export default function Chiffres() {

@@ -51,9 +51,10 @@ export default function BiblioVivante() {
           <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-lg">
             MRE industrialise la consultation des sources légalement obligées de
             publier (Article 5 Règlement UE 1286/2014 PRIIPs, sites ACPR / AMF /
-            EUR-Lex / EFAMA). 19 crons en production, 78 K PDF, 2 349 ISIN
-            distincts couverts au 9 mai 2026. Cap couverture France ≥ 95 % à
-            fin 2028, à coût marginal d'infrastructure (3-5 K€/an).
+            EUR-Lex / EFAMA / ESMA FIRDS). <strong>23 crons en production, 41 631 PDF,
+            79 108 versions historisées, 16 319 ISIN watchlist</strong> au 13 mai 2026 —
+            <strong>découverte automatique via ESMA FIRDS</strong> (223 868 fonds européens scannés).
+            Cap couverture France ≥ 95 % à fin 2028, à coût marginal d'infrastructure (3-5 K€/an).
           </p>
         </div>
 
@@ -96,31 +97,31 @@ export default function BiblioVivante() {
 
         <div className="mt-14 grid md:grid-cols-2 gap-8">
           <div className="bg-mre-bleu text-white rounded-xl p-8">
-            <h3 className="text-2xl font-bold mb-4">Volume aujourd'hui</h3>
+            <h3 className="text-2xl font-bold mb-4">Volume au 13 mai 2026</h3>
             <div className="space-y-3 text-lg">
               <div className="flex justify-between border-b border-white/20 pb-2">
-                <span>Texte juridique intégral</span>
-                <strong>1 940 000 caractères</strong>
+                <span>PDF binaires stockés (S3 Scaleway)</span>
+                <strong>41 631</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
-                <span>Versions de documents indexés</span>
-                <strong>76 535</strong>
+                <span>Versions historisées</span>
+                <strong>79 108</strong>
+              </div>
+              <div className="flex justify-between border-b border-white/20 pb-2">
+                <span>ISIN watchlist (post-ESMA FIRDS)</span>
+                <strong>16 319</strong>
+              </div>
+              <div className="flex justify-between border-b border-white/20 pb-2">
+                <span>DIC métadonnées indexées</span>
+                <strong>1 010</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>Sanctions ACPR récentes</span>
                 <strong>70 décisions</strong>
               </div>
-              <div className="flex justify-between border-b border-white/20 pb-2">
-                <span>Recommandations ACPR</span>
-                <strong>17</strong>
-              </div>
-              <div className="flex justify-between border-b border-white/20 pb-2">
-                <span>Doctrines AMF</span>
-                <strong>30+</strong>
-              </div>
               <div className="flex justify-between">
                 <span>Règlements UE consolidés FR</span>
-                <strong>8</strong>
+                <strong>13 textes</strong>
               </div>
             </div>
           </div>

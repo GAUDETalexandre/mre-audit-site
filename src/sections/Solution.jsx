@@ -14,7 +14,7 @@ const ETAPES = [
   {
     n: "03",
     titre: "9 couches d'audit en parallèle",
-    detail: "46 détecteurs DIC + détecteurs cross-niveau. Chaque écart sourcé : article CdA / DDA / PRIIPs / SFDR / UCITS cité, considérant UE intégral, sanction ACPR de précédent (H2O 75 M€, BNPP Cardif, Boursorama).",
+    detail: "152 détecteurs sur 23 domaines métier. Chaque écart sourcé : article CdA / DDA / PRIIPs / SFDR / UCITS cité, considérant UE intégral, sanction ACPR de précédent (H2O 75 M€, Generali Vie 10 M€, BNPP Cardif).",
   },
   {
     n: "04",
@@ -23,13 +23,18 @@ const ETAPES = [
   },
   {
     n: "05",
+    titre: "Couche IA souveraine — à la demande",
+    detail: "Quand l'OCR bute sur un cas dégradé (signature manuscrite, tableau OCR défaillant), MRE escalade vers Mistral Small 3.2-24B FP8 hébergé Scaleway France. Allumée 5 % du temps · < 0,30 € / dossier · aucune donnée hors UE. L'IA lit, l'expert décide, le rapport cite.",
+  },
+  {
+    n: "06",
     titre: "Notifications matérielles automatiques",
     detail: "Cron quotidien détecte les changements matériels (downgrade SFDR, fusion initiateur, hausse frais, side-pocket apparu). Mail digest 8h + tableau de suivi avec 4 statuts pour audit ACPR.",
   },
   {
-    n: "06",
+    n: "07",
     titre: "Rapport ACPR-ready",
-    detail: "Synthèse 1 page + détail complet. Self-check intégré 8 axes vérifie la cohérence avec les documents source. Aucun chiffre inventé.",
+    detail: "Synthèse 1 page + détail complet. Self-check intégré 8 axes vérifie la cohérence avec les documents source. Certification AMADEO 49/49 conformes sur dossier témoin réel. Aucun chiffre inventé.",
   },
 ];
 

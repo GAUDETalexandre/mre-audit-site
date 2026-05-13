@@ -22,10 +22,28 @@ export default function Hero() {
             réglementaire <strong>(PRIIPs · DDA · POG · SFDR · UCITS · Solvabilité&nbsp;2 ·
             ACPR · AMF)</strong>. Conçue pour les <strong className="text-mre-bleu">directions
             conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
-            et autorités de tutelle</strong>. 46 détecteurs en production, chaque
-            écart sourcé verbatim — article cité, considérant UE, sanction de
-            précédent.
+            et autorités de tutelle</strong>. <strong>152 détecteurs</strong> sur 23 domaines métier,
+            chaque écart sourcé verbatim — article cité, considérant UE, sanction de précédent.
           </p>
+
+          {/* 3 piliers MRE (ajouté 13 mai 2026) */}
+          <div className="mt-6 grid grid-cols-3 gap-3">
+            <div className="bg-mre-bleu/5 border-l-4 border-mre-bleu px-3 py-2 rounded-r">
+              <div className="text-[10px] font-bold uppercase tracking-wider text-mre-rouge">01 — Frugale</div>
+              <div className="text-xs font-semibold text-mre-bleu mt-0.5">IA à la demande</div>
+              <div className="text-[11px] text-mre-gris mt-0.5">Éteinte 95 % du temps · &lt; 0,30 € / dossier complexe</div>
+            </div>
+            <div className="bg-mre-bleu/5 border-l-4 border-mre-bleu px-3 py-2 rounded-r">
+              <div className="text-[10px] font-bold uppercase tracking-wider text-mre-rouge">02 — Souveraine</div>
+              <div className="text-xs font-semibold text-mre-bleu mt-0.5">Mistral · Scaleway FR</div>
+              <div className="text-[11px] text-mre-gris mt-0.5">Open-source Apache 2.0 · aucun appel hors UE</div>
+            </div>
+            <div className="bg-mre-bleu/5 border-l-4 border-mre-bleu px-3 py-2 rounded-r">
+              <div className="text-[10px] font-bold uppercase tracking-wider text-mre-rouge">03 — Inclusive</div>
+              <div className="text-xs font-semibold text-mre-bleu mt-0.5">Entreprise Adaptée</div>
+              <div className="text-[11px] text-mre-gris mt-0.5">Fondateur RQTH + TIH · ≥ 55 % salariés TH</div>
+            </div>
+          </div>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a
@@ -44,16 +62,16 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-6 text-sm text-mre-gris">
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 78 032 PDF en bibliothèque vivante
+              <span className="text-green-600 font-bold">●</span> 41 631 PDF en bibliothèque vivante
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 65+ tests verts
+              <span className="text-green-600 font-bold">●</span> 334 tests sentinelles verts
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> Anti-hallucination verbatim
+              <span className="text-green-600 font-bold">●</span> Certification AMADEO 49/49
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> Souveraineté 100 % France/UE
+              <span className="text-green-600 font-bold">●</span> IA souveraine Mistral
             </span>
           </div>
         </div>

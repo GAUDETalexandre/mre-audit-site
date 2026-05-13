@@ -2,18 +2,42 @@ import React from "react";
 
 const DOCUMENTS = [
   {
-    titre: "Business Plan",
-    sous: "Édition institutionnelle v3.1",
+    titre: "Business Plan v5",
+    sous: "Édition institutionnelle 12 mai 2026",
     detail:
-      "27 pages — Executive summary · Genèse · Problème chiffré et sourcé · Solution · TAM/SAM/SOM · Concurrence détaillée · Modèle économique · GTM · Plan financier 3 ans · RGPD/sécurité/PI · Cas client anonymisé · Cibles SAM nominatives · Risques · Roadmap go/no-go · Analyses croisées par jurys.",
+      "29 pages — Synthèse exécutive · Le constat et l'asymétrie ACPR/AMF · Les 2 innovations couplées (bibliothèque vivante + moteur révélateur d'écart) · 13 textes réglementaires couverts · TAM/SAM/SOM · Matrice fonctionnelle MRE vs marché · Le créneau non-occupé · Pricing 3 paliers · Unit economics (marge brute > 99 %) · Équipe + méthode IA-assistée · Engagement Entreprise Adaptée · Roadmap 24 mois.",
     icone: "📊",
     couleur: "#003a70",
   },
   {
-    titre: "Étude de marché",
-    sous: "Édition institutionnelle v3.1",
+    titre: "Pitch deck v5",
+    sous: "13 slides A4 paysage · 12 mai 2026",
     detail:
-      "20+ pages — Cadre macro épargne FR · Volumétrie documentaire · Matrice exhaustive sanctions ACPR/AMF · Cartographie concurrence (Big 4, RegTech FR/UE/UK/US) · Comparatifs détaillés Kneip + Corlytics · Cibles nominatives 122 grands comptes · Méthodologie TAM/SAM/SOM rigoureuse · Dynamiques 2026-2030 · Personas institutionnels.",
+      "Format pitch institutionnel — problème · pourquoi maintenant · solution · différenciation · couche IA souveraine · marché · modèle économique · traction (49/49 certif AMADEO) · roadmap · équipe + méthode · engagement société · demande Le Swave. Disponible sur demande qualifiée au format PDF / PPTX.",
+    icone: "🎯",
+    couleur: "#B45309",
+  },
+  {
+    titre: "Note couche IA souveraine",
+    sous: "Preuve technique 11 mai 2026",
+    detail:
+      "Architecture validée bout-en-bout — Mistral Small 3.2-24B FP8 sur GPU H100 Scaleway fr-par-2. Tunnel SSH chiffré, token Bearer 32 octets par client. Allumée à la demande (~ 5 % du temps), coût marginal < 0,30 € par dossier complexe. Aucun appel cloud étranger.",
+    icone: "🤖",
+    couleur: "#1e3a8a",
+  },
+  {
+    titre: "Certification AMADEO 49/49",
+    sous: "Preuve qualité audit 11 mai 2026",
+    detail:
+      "Dossier témoin réel anonymisé (Roland Gaudet AMADEO Excellence Vie) — 13 PDFs croisés contre 13 textes réglementaires. 49 vérifications-clés certifiées 100 % conformes. Score MRE : 8 ECART_MAJEUR · 17 TENSION · 22 ALIGNÉ · 53 INFO · 126 observations totales.",
+    icone: "✅",
+    couleur: "#047857",
+  },
+  {
+    titre: "Étude de marché",
+    sous: "Édition institutionnelle",
+    detail:
+      "20+ pages — Cadre macro épargne FR · Volumétrie documentaire · Matrice exhaustive sanctions ACPR/AMF · Cartographie concurrence (Big 4, RegTech FR/UE/UK/US) · Cibles nominatives 122 grands comptes · Méthodologie TAM/SAM/SOM rigoureuse · Dynamiques 2026-2030 · Personas institutionnels.",
     icone: "📈",
     couleur: "#B91C1C",
   },
@@ -23,15 +47,7 @@ const DOCUMENTS = [
     detail:
       "Dossier patrimonial type — 26 zones d'analyse · 3 minutes vs 8 heures audit manuel · 19 % alignement réglementaire constaté · Détail des écarts majeurs détectés et articles cités · Calcul ROI client documenté.",
     icone: "🔍",
-    couleur: "#047857",
-  },
-  {
-    titre: "Pitch deck",
-    sous: "12 slides — comité d'incubation",
-    detail:
-      "Format pitch institutionnel — problème · solution · différenciateur · marché · concurrence · modèle · traction · équipe · roadmap · ask. Disponible sur demande qualifiée au format PDF / PPTX.",
-    icone: "🎯",
-    couleur: "#B45309",
+    couleur: "#92400E",
   },
 ];
 
