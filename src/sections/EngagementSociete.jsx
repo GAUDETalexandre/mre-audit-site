@@ -85,10 +85,13 @@ export default function EngagementSociete() {
           <p className="text-lg italic leading-relaxed">
             « L'IA ne sait pas ce qu'est un fonds eurocroissance, une concentration
             intra-groupe ou un FGAP non couvert. Mes quinze ans de terrain en gestion
-            de patrimoine guident chacun des 152 détecteurs MRE. »
+            de patrimoine ont guidé chacun des 247 détecteurs MRE. L'IA m'a aidé à
+            écrire le code, à industrialiser les tests, à produire la documentation —
+            mais chaque seuil, chaque article cité, chaque qualification résulte
+            d'une décision humaine experte. »
           </p>
           <p className="mt-4 text-sm text-blue-200">
-            — Alexandre Gaudet, fondateur · Reconnu Travailleur Handicapé
+            — Alexandre Gaudet, fondateur · RQTH 2026
           </p>
         </div>
       </div>

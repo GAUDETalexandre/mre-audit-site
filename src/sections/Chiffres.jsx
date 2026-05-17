@@ -1,11 +1,11 @@
 import React from "react";
 
 const CHIFFRES = [
-  { valeur: "41 631", unite: "PDF en bibliothèque", detail: "Bibliothèque vivante au 12/05/2026 · 79 108 versions historisées · 16 319 ISIN watchlist · découverte ESMA FIRDS automatique" },
-  { valeur: "152", unite: "détecteurs en production", detail: "23 domaines métier (PRIIPs · DDA · POG · SFDR · Solvabilité 2 · fiscalité · eurocroissance · Loi Industrie Verte · structurés · Sapin 2)" },
+  { valeur: "46 677", unite: "PDF en bibliothèque", detail: "Bibliothèque vivante au 17/05/2026 · 85 334 versions historisées · 6 750 ISIN avec DIC capturé · 306 320 ISIN en watchlist · découverte ESMA FIRDS automatique" },
+  { valeur: "247", unite: "détecteurs en production", detail: "Chiffre vérifié au 17/05/2026 par scan exhaustif du code source du moteur. Couvre PRIIPs · DDA · POG · SFDR · Solvabilité 2 · fiscalité 125-0 A / 990 I / 757 B CGI · eurocroissance · Loi Industrie Verte · structurés · Sapin 2 · contrats mixtes AV+retraite · concentration et tunnel intra-groupe · UCITS · jurisprudence ACPR" },
   { valeur: "13", unite: "textes réglementaires", detail: "PRIIPs · DDA · SFDR · UCITS · POG · Solvabilité 2 · Code assurances · Code mutualité · CGI · ACPR · AMF · Loi Industrie Verte · ESAP" },
-  { valeur: "49 / 49", unite: "certification AMADEO", detail: "100 % des vérifications-clés conformes sur le dossier témoin AMADEO Excellence Vie · 13 PDFs croisés contre 13 textes" },
-  { valeur: "334", unite: "tests sentinelles verts", detail: "Non-régression automatisée à chaque évolution · anti-hallucination, témoins négatifs, anti-faux-positifs" },
+  { valeur: "49 / 49", unite: "vérifications-clés AMADEO conformes", detail: "100 % des vérifications-clés du rapport AMADEO Excellence Vie conformes le 11/05/2026 · 13 PDFs croisés contre 13 textes réglementaires" },
+  { valeur: "335", unite: "tests sentinelles verts", detail: "Vérifié 17/05/2026 sur 14 modules de tests unitaires (routeur, classifier, couches narratives, cascade, concentration, LIV, SFDR, eurocroissance, tunnel intra-groupe, fonds problématiques, etc.) · anti-hallucination, témoins négatifs, anti-faux-positifs" },
   { valeur: "< 0,30 €", unite: "coût IA / dossier complexe", detail: "Couche IA Mistral souveraine allumée à la demande · 95 % du temps éteinte · marge brute > 99 %" },
   { valeur: "100 %", unite: "souveraineté France/UE", detail: "Scaleway France · OVH · modèle IA Mistral open-source Apache 2.0 · aucune dépendance cloud US · conforme commande publique 2026+" },
   { valeur: "0", unite: "hallucination", detail: "Patterns + verbatim cité du document source · règle de gouvernance verrouillée dans le code · l'IA lit, l'expert décide, le rapport cite" },

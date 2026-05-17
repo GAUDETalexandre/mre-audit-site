@@ -22,7 +22,7 @@ export default function Hero() {
             réglementaire <strong>(PRIIPs · DDA · POG · SFDR · UCITS · Solvabilité&nbsp;2 ·
             ACPR · AMF)</strong>. Conçue pour les <strong className="text-mre-bleu">directions
             conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
-            et autorités de tutelle</strong>. <strong>152 détecteurs</strong> sur 23 domaines métier,
+            et autorités de tutelle</strong>. <strong>247 détecteurs</strong> en production sur 23 grands domaines réglementaires,
             chaque écart sourcé verbatim — article cité, considérant UE, sanction de précédent.
           </p>
 
@@ -62,13 +62,13 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-6 text-sm text-mre-gris">
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 41 631 PDF en bibliothèque vivante
+              <span className="text-green-600 font-bold">●</span> 46 677 PDF en bibliothèque vivante
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 334 tests sentinelles verts
+              <span className="text-green-600 font-bold">●</span> 335 tests sentinelles verts
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> Certification AMADEO 49/49
+              <span className="text-green-600 font-bold">●</span> AMADEO 49/49 vérifications-clés conformes (11/05)
             </span>
             <span className="flex items-center gap-2">
               <span className="text-green-600 font-bold">●</span> IA souveraine Mistral

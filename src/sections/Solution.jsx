@@ -14,7 +14,7 @@ const ETAPES = [
   {
     n: "03",
     titre: "9 couches d'audit en parallèle",
-    detail: "152 détecteurs sur 23 domaines métier. Chaque écart sourcé : article CdA / DDA / PRIIPs / SFDR / UCITS cité, considérant UE intégral, sanction ACPR de précédent (H2O 75 M€, Generali Vie 10 M€, BNPP Cardif).",
+    detail: "247 détecteurs en production sur 23 grands domaines réglementaires (chiffre vérifié 17/05/2026). Chaque écart sourcé : article CdA / DDA / PRIIPs / SFDR / UCITS cité, considérant UE intégral, sanction ACPR de précédent (H2O 75 M€, Generali Vie 10 M€, BNPP Cardif).",
   },
   {
     n: "04",

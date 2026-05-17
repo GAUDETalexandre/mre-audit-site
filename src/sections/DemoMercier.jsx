@@ -21,9 +21,13 @@ export default function DemoMercier() {
             Cas Catherine MERCIER, 66 ans, encours 78 450 €
           </h2>
           <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-lg">
-            Cas <strong>100 % fictif</strong> construit avec 10 erreurs
-            représentatives des problèmes les plus fréquemment relevés par
-            l'ACPR. Mutuelle Patrimoine Solidaire (MPS) est une entité fictive.
+            Cas <strong>100 % fictif</strong> construit avec des erreurs
+            représentatives des problèmes typiquement relevés en mission de conformité
+            (sanctions ACPR publiées, doctrine AMF, jurisprudence Cour de cassation).
+            <strong> Simulation d'audit</strong> par le moteur MRE — pas un test
+            réalisé par un tiers. Mutuelle Patrimoine Solidaire (MPS) est une entité
+            entièrement fictive ; toute ressemblance avec un assureur ou un client
+            réel est fortuite.
           </p>
         </div>
 
@@ -78,20 +82,21 @@ export default function DemoMercier() {
                   Capital Patrimoine Vie
                 </h4>
                 <span className="text-xs font-mono text-mre-gris">
-                  Self-check 100/100 ✓
+                  119 observations · rapport régénéré 17/05/2026
                 </span>
               </div>
 
               <Bandeau couleur="#7F1D1D" titre="EXPOSITION CRITIQUE" valeur="33 070 – 99 209 €" />
 
               <div className="mt-4 grid grid-cols-3 gap-2 text-center">
-                <Stat label="Écarts majeurs" valeur="3" couleur="#B91C1C" />
-                <Stat label="Tensions" valeur="5" couleur="#B45309" />
-                <Stat label="Éléments absents" valeur="24" couleur="#7F1D1D" />
+                <Stat label="Écarts majeurs" valeur="6" couleur="#B91C1C" />
+                <Stat label="Tensions" valeur="16" couleur="#B45309" />
+                <Stat label="Éléments absents" valeur="32" couleur="#7F1D1D" />
               </div>
 
               <div className="mt-4 space-y-2 text-xs">
                 <Ligne couleur="#B91C1C" code="REOR_NOTE_CONSEIL" titre="Note de conseil L521-2 absente" />
+                <Ligne couleur="#B91C1C" code="DIC_C_RIY_PRESENT" titre="Aucun tableau coûts au fil du temps ni RIY chiffré" />
                 <Ligne couleur="#B45309" code="VULNERABILITE_PERSONNE_AGEE" titre="Vulnérabilité — adhérente 66 ans" />
                 <Ligne couleur="#B45309" code="LCBFT_KYC_ABSENT" titre="KYC LCB-FT non transmis (encours > 50 k€)" />
               </div>
