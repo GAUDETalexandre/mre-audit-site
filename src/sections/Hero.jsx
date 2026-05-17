@@ -85,20 +85,20 @@ export default function Hero() {
             <div className="space-y-3">
               <DetecteurLine
                 couleur="rouge"
-                titre="Note de conseil L521-2 absente"
-                detail="Cass. com. 21 juin 2017"
+                titre="Note de conseil L521-2 / L522-5 absente"
+                detail="DDA art. 30 · Cass. 30/11/2023 n° 22-15.077"
                 niveau="ÉCART MAJEUR"
               />
               <DetecteurLine
                 couleur="rouge"
-                titre="Concentration intra-groupe 99 %"
-                detail="Étude AMF 10 juin 2021"
+                titre="Concentration intra-groupe > 80 %"
+                detail="Étude AMF 10 juin 2021 (12/15 groupes > 50 %)"
                 niveau="ÉCART MAJEUR"
               />
               <DetecteurLine
                 couleur="orange"
-                titre="Vulnérabilité présumée — 75 ans"
-                detail="Reco ACPR 2018-R-01"
+                titre="Vulnérabilité — adhérent 75 ans"
+                detail="Rapport ACPR-AMF 12/12/2018"
                 niveau="TENSION"
               />
               <DetecteurLine

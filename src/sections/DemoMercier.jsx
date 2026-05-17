@@ -102,8 +102,10 @@ export default function DemoMercier() {
               </div>
 
               <div className="mt-5 pt-4 border-t border-gray-200 text-xs text-mre-gris">
-                Sourcé sur : Code des assurances · DDA art. 28-30 · PRIIPs ·
-                Reco ACPR 2018-R-01 · Cass. com. 21 juin 2017
+                Sourcé sur : Code des assurances (L. 521-2, L. 521-4, L. 522-5) ·
+                DDA art. 28-30 · Règlement PRIIPs (UE) 1286/2014 ·
+                Reco ACPR 2024-R-01 (devoir de conseil IBIP, applicable 31/12/2025) ·
+                Cass. 1ère civ. 30/11/2023 n° 22-15.077
               </div>
             </div>
 

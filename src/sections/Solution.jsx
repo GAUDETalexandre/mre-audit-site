@@ -14,7 +14,7 @@ const ETAPES = [
   {
     n: "03",
     titre: "9 couches d'audit en parallèle",
-    detail: "247 détecteurs en production sur 23 grands domaines réglementaires (chiffre vérifié 17/05/2026). Chaque écart sourcé : article CdA / DDA / PRIIPs / SFDR / UCITS cité, considérant UE intégral, sanction ACPR de précédent (H2O 75 M€, Generali Vie 10 M€, BNPP Cardif).",
+    detail: "247 détecteurs en production sur 23 grands domaines réglementaires (chiffre vérifié 17/05/2026). Chaque écart sourcé : article CdA / DDA / PRIIPs / SFDR / UCITS cité, considérant UE intégral, sanction ACPR/AMF de précédent (H2O AM AMF 93 M€ confirmé Conseil d'État 13/06/2025, Generali Vie ACPR 10 M€ 2020, Mutex 8 M€ 2022, Abeille Vie 3,5 M€ 2023, CARCO 500 K€ 2025, Cardif Assurance Vie 2,5 M€ LCB-FT 2021).",
   },
   {
     n: "04",

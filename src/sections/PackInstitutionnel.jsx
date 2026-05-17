@@ -13,7 +13,7 @@ const DOCUMENTS = [
     titre: "Pitch deck v5",
     sous: "13 slides A4 paysage · 12 mai 2026",
     detail:
-      "Format pitch institutionnel — problème · pourquoi maintenant · solution · différenciation · couche IA souveraine · marché · modèle économique · traction (49/49 certif AMADEO) · roadmap · équipe + méthode · engagement société · demande Le Swave. Disponible sur demande qualifiée au format PDF / PPTX.",
+      "Format pitch institutionnel — problème · pourquoi maintenant · solution · différenciation · couche IA souveraine · marché · modèle économique · traction (49/49 certif AMADEO) · roadmap · équipe + méthode · engagement société · demande d'accompagnement institutionnel. Disponible sur demande qualifiée au format PDF / PPTX.",
     icone: "🎯",
     couleur: "#B45309",
   },
@@ -27,9 +27,9 @@ const DOCUMENTS = [
   },
   {
     titre: "Certification AMADEO 49/49",
-    sous: "Preuve qualité audit 11 mai 2026",
+    sous: "Preuve qualité audit · rapport v7 régénéré 17/05/2026",
     detail:
-      "Dossier témoin réel anonymisé (Roland Gaudet AMADEO Excellence Vie) — 13 PDFs croisés contre 13 textes réglementaires. 49 vérifications-clés certifiées 100 % conformes. Score MRE : 8 ECART_MAJEUR · 17 TENSION · 22 ALIGNÉ · 53 INFO · 126 observations totales.",
+      "Dossier témoin réel anonymisé (Roland Gaudet AMADEO Excellence Vie) — 13 PDFs croisés contre 13 textes réglementaires. 49 vérifications-clés certifiées 100 % conformes (11/05/2026). Score MRE v7 (17/05/2026) : 12 ECART_MAJEUR · 17 TENSION · 24 ALIGNE · 23 ELEMENT_ABSENT · 56 INFO = 132 observations totales.",
     icone: "✅",
     couleur: "#047857",
   },
@@ -63,7 +63,7 @@ export default function PackInstitutionnel() {
             Documentation institutionnelle disponible sur demande qualifiée.
           </h2>
           <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-lg">
-            Quatre documents structurants au standard d'un dossier d'agrément
+            Six documents structurants au standard d'un dossier d'agrément
             ACPR — destinés aux comités d'incubation, fonds d'amorçage RegTech,
             directions conformité et autorités de tutelle. Transmis sous
             engagement de confidentialité après qualification de la demande.

@@ -13,7 +13,7 @@ export default function Probleme() {
             auditée par personne — à l'échelle.
           </h2>
           <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-base">
-            2 107 Md€ d'assurance-vie · 118,9 Md€ de PER (France Assureurs 2025).
+            2 107 Md€ d'assurance-vie fin 2025 (France Assureurs) · 141 Md€ de PER T3 2025 (Ministère de l'Économie, 12,7 M titulaires).
             ~ 12 000 acteurs supervisés face à ~ 1 500 ETP ACPR + AMF cumulés.
             Chaque contrat = 30-50 documents sur sa durée de vie. L'asymétrie
             est structurelle.
@@ -22,19 +22,19 @@ export default function Probleme() {
 
         <div className="grid md:grid-cols-3 gap-6 mt-12">
           <Carte
-            chiffre="60 %"
-            titre="des dossiers contrôlés"
-            detail="présentent un manquement au devoir de conseil L521-2 / DDA art. 20 — priorité ACPR Reco 2024-R-03"
+            chiffre="29,4 M€"
+            titre="sanctions AMF 2024"
+            detail="42 sanctions pécuniaires + 9 compositions administratives — l'AMF est première autorité européenne en montant (rapport ESMA oct. 2025)"
           />
           <Carte
             chiffre="12 / 15"
             titre="grands groupes français"
-            detail="ont plus de 50 % de supports intra-groupe en gestion pilotée AV (étude AMF, juin 2021) — point de vigilance gouvernance produit"
+            detail="ont plus de 50 % de supports intra-groupe sur 407 Md€ de fonds détenus (étude AMF 10 juin 2021) — point de vigilance gouvernance produit"
           />
           <Carte
-            chiffre="75 M€"
-            titre="sanction H2O AM (2022)"
-            detail="confirmée par le Conseil d'État (juin 2025) — illustration matérielle de l'écart entre documents commerciaux et illiquidité réelle"
+            chiffre="93 M€"
+            titre="sanction H2O AM (30/12/2022)"
+            detail="confirmée par le Conseil d'État le 13/06/2025 (75 M€ société + 15 M€ + 3 M€ dirigeants) — illustration matérielle de l'écart entre documents commerciaux et illiquidité réelle Tennor"
           />
         </div>
 
