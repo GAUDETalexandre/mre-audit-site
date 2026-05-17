@@ -8,7 +8,7 @@ const ETAPES = [
   { annee: "2026", titre: "RQTH", detail: "Reconnaissance de la Qualité de Travailleur Handicapé obtenue en 2026. Ouvre l'éligibilité au statut TIH (Travailleur Indépendant Handicapé) puis Entreprise Adaptée dès la première embauche." },
   { annee: "13 avril 2026", titre: "Démarrage de MRE", detail: "Lancement officiel du projet. Conception itérative de l'architecture du moteur et de la bibliothèque vivante. Quinze années de terrain incorporées dans la logique métier du produit." },
   { annee: "Mai 2026", titre: "Sprint de construction", detail: "Quatre semaines de construction intensive. Le projet est le fruit de ma connaissance métier de quinze ans, adossée à une IA générative comme outil d'exécution (écriture du code, des tests, de la documentation). Chaque détecteur, chaque seuil, chaque référence réglementaire résulte d'une décision humaine experte. L'IA accélère ; l'expert décide ; le rapport cite. C'est cette méthode qui a permis d'obtenir des résultats probants en peu de temps." },
-  { annee: "Demain", titre: "TIH + Entreprise Adaptée", detail: "MRE Audit sera enregistré au statut Travailleur Indépendant Handicapé dès la création SASU. Engagement Entreprise Adaptée dès la première embauche (cadre L. 5213-13 à L. 5213-19 Code du travail, ≥ 55 % salariés en situation de handicap). 100 % à horizon 24 mois." },
+  { annee: "Demain", titre: "TIH + Entreprise Adaptée", detail: "MRE Audit sera enregistré au statut Travailleur Indépendant Handicapé dès la création SASU. Engagement Entreprise Adaptée dès la première embauche (cadre L. 5213-13 à L. 5213-19-1 Code du travail, ≥ 55 % salariés en situation de handicap). 100 % à horizon 24 mois." },
 ];
 
 export default function MonHistoire() {

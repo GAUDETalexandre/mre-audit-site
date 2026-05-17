@@ -23,7 +23,7 @@ const ENGAGEMENTS = [
     label: "03 — Inclusive",
     titre: "Entreprise Adaptée dès la première embauche",
     detail:
-      "Le fondateur est reconnu travailleur handicapé (RQTH). MRE Audit sera enregistré au statut Travailleur Indépendant Handicapé (TIH) dès la création SASU. Dès la première embauche, MRE deviendra Entreprise Adaptée (cadre L. 5213-13 à L. 5213-19 Code travail), avec un minimum de 55 % de salariés en situation de handicap dans l'effectif.",
+      "Le fondateur est reconnu travailleur handicapé (RQTH). MRE Audit sera enregistré au statut Travailleur Indépendant Handicapé (TIH) dès la création SASU. Dès la première embauche, MRE deviendra Entreprise Adaptée (cadre L. 5213-13 à L. 5213-19-1 Code travail), avec un minimum de 55 % de salariés en situation de handicap dans l'effectif.",
     cadre: "Achat solidaire art. 13 loi du 31 juillet 2014 · répond à l'OETH 6 % du client B2B",
     couleur: "#B91C1C",
     bg: "#FEF2F2",
