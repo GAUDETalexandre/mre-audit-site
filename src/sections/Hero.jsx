@@ -22,7 +22,7 @@ export default function Hero() {
             réglementaire <strong>(PRIIPs · DDA · POG · SFDR · UCITS · Solvabilité&nbsp;2 ·
             ACPR · AMF)</strong>. Conçue pour les <strong className="text-mre-bleu">directions
             conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
-            et autorités de tutelle</strong>. <strong>247 détecteurs</strong> en production sur 23 grands domaines réglementaires,
+            et autorités de tutelle</strong>. <strong>229 détecteurs</strong> en production sur 23 grands domaines réglementaires (chiffre vérifié 17/05/2026, scan exhaustif code source),
             chaque écart sourcé verbatim — article cité, considérant UE, sanction de précédent.
           </p>
 

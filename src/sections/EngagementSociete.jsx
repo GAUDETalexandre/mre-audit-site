@@ -85,7 +85,7 @@ export default function EngagementSociete() {
           <p className="text-lg italic leading-relaxed">
             « L'IA ne sait pas ce qu'est un fonds eurocroissance, une concentration
             intra-groupe ou un FGAP non couvert. Mes quinze ans de terrain en gestion
-            de patrimoine ont guidé chacun des 247 détecteurs MRE. L'IA m'a aidé à
+            de patrimoine ont guidé chacun des 229 détecteurs MRE. L'IA m'a aidé à
             écrire le code, à industrialiser les tests, à produire la documentation —
             mais chaque seuil, chaque article cité, chaque qualification résulte
             d'une décision humaine experte. »
