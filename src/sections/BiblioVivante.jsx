@@ -52,9 +52,11 @@ export default function BiblioVivante() {
             MRE industrialise la consultation des sources légalement obligées de
             publier (Article 5 Règlement UE 1286/2014 PRIIPs, sites ACPR / AMF /
             EUR-Lex / EFAMA / ESMA FIRDS). <strong>46 677 PDF stockés, 85 334
-            versions historisées, 6 750 ISIN avec DIC capturé, 306 320 ISIN en
-            watchlist</strong> au 17 mai 2026 —
-            <strong>découverte automatique via ESMA FIRDS</strong> (223 868 fonds européens scannés).
+            versions historisées, 9 012 ISIN avec DIC capturé, 306 320 ISIN en
+            watchlist</strong> au 27 mai 2026 — qualification fonctionnelle
+            <strong>51,5 % couverture utile</strong> (×14 depuis 17/05 grâce aux
+            patterns SRI/PRIIPS étendus et l'auto-alimentation MRE → biblio).
+            <strong>Découverte automatique via ESMA FIRDS</strong> (223 868 fonds européens scannés).
             Cap couverture France ≥ 95 % à fin 2028, à coût marginal d'infrastructure (3-5 K€/an).
           </p>
         </div>
@@ -98,19 +100,19 @@ export default function BiblioVivante() {
 
         <div className="mt-14 grid md:grid-cols-2 gap-8">
           <div className="bg-mre-bleu text-white rounded-xl p-8">
-            <h3 className="text-2xl font-bold mb-4">Volume au 17 mai 2026</h3>
+            <h3 className="text-2xl font-bold mb-4">Volume au 27 mai 2026</h3>
             <div className="space-y-3 text-lg">
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>PDF binaires stockés (S3 Scaleway)</span>
-                <strong>46 677</strong>
+                <strong>46 677+</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>Versions historisées</span>
-                <strong>85 334</strong>
+                <strong>85 334+</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>ISIN avec DIC capturé</span>
-                <strong>6 750</strong>
+                <strong>9 012</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>ISIN en watchlist (post-ESMA FIRDS)</span>
