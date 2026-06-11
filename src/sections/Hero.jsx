@@ -22,7 +22,7 @@ export default function Hero() {
             réglementaire <strong>(PRIIPs · DDA · POG · SFDR · UCITS · Solvabilité&nbsp;2 ·
             ACPR · AMF)</strong>. Conçue pour les <strong className="text-mre-bleu">directions
             conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
-            et autorités de tutelle</strong>. <strong>274 détecteurs</strong> en production sur 23 grands domaines réglementaires (chiffre vérifié 17/05/2026, scan exhaustif code source), enrichi 27/05/2026 d'une <strong>cartographie capitalistique 25 groupes / 53 SGP</strong> (cessions M&A tracées, conflits d'intérêts qualifiés),
+            et autorités de tutelle</strong>. <strong>Plus de 330 détecteurs</strong> en production sur 23 grands domaines réglementaires (chiffre vérifié 05/06/2026, recompte exhaustif du code source), enrichi d'une <strong>cartographie capitalistique 25 groupes / 53 SGP</strong> (cessions M&A tracées, conflits d'intérêts qualifiés),
             chaque écart sourcé verbatim — article cité, considérant UE, sanction de précédent.
           </p>
 
@@ -62,7 +62,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-6 text-sm text-mre-gris">
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 46 677+ PDF en bibliothèque vivante (51,5 % couverture utile au 27/05/2026)
+              <span className="text-green-600 font-bold">●</span> 53 659 PDF en bibliothèque vivante · 11 920 ISIN avec DIC capturé (au 11/06/2026)
             </span>
             <span className="flex items-center gap-2">
               <span className="text-green-600 font-bold">●</span> 16 modules sentinelles + non-régression 3 témoins

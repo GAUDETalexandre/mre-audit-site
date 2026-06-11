@@ -82,23 +82,23 @@ export default function DemoMercier() {
                   Capital Patrimoine Vie
                 </h4>
                 <span className="text-xs font-mono text-mre-gris">
-                  119 observations · rapport régénéré 17/05/2026
+                  139 observations · rapport régénéré 11/06/2026
                 </span>
               </div>
 
-              <Bandeau couleur="#7F1D1D" titre="EXPOSITION CRITIQUE" valeur="33 070 – 99 209 €" />
+              <Bandeau couleur="#7F1D1D" titre="RÉORIENTATION ANALYSÉE" valeur="8 200 € sur 78 450 € d'encours" />
 
               <div className="mt-4 grid grid-cols-3 gap-2 text-center">
                 <Stat label="Écarts majeurs" valeur="6" couleur="#B91C1C" />
-                <Stat label="Tensions" valeur="16" couleur="#B45309" />
-                <Stat label="Éléments absents" valeur="32" couleur="#7F1D1D" />
+                <Stat label="Tensions" valeur="14" couleur="#B45309" />
+                <Stat label="Éléments absents" valeur="43" couleur="#7F1D1D" />
               </div>
 
               <div className="mt-4 space-y-2 text-xs">
                 <Ligne couleur="#B91C1C" code="REOR_NOTE_CONSEIL" titre="Note de conseil L521-2 absente" />
                 <Ligne couleur="#B91C1C" code="DIC_C_RIY_PRESENT" titre="Aucun tableau coûts au fil du temps ni RIY chiffré" />
                 <Ligne couleur="#B45309" code="VULNERABILITE_PERSONNE_AGEE" titre="Vulnérabilité — adhérente 66 ans" />
-                <Ligne couleur="#B45309" code="LCBFT_KYC_ABSENT" titre="KYC LCB-FT non transmis (encours > 50 k€)" />
+                <Ligne couleur="#B45309" code="V5_POCHE_LIQUIDE" titre="Aucune poche liquide dédiée à 66 ans (ACPR-AMF déc. 2018)" />
               </div>
 
               <div className="mt-5 pt-4 border-t border-gray-200 text-xs text-mre-gris">

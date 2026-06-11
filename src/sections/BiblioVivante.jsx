@@ -51,12 +51,12 @@ export default function BiblioVivante() {
           <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-lg">
             MRE industrialise la consultation des sources légalement obligées de
             publier (Article 5 Règlement UE 1286/2014 PRIIPs, sites ACPR / AMF /
-            EUR-Lex / EFAMA / ESMA FIRDS). <strong>46 677 PDF stockés, 85 334
-            versions historisées, 9 012 ISIN avec DIC capturé, 306 320 ISIN en
-            watchlist</strong> au 27 mai 2026 — qualification fonctionnelle
-            <strong>51,5 % couverture utile</strong> (×14 depuis 17/05 grâce aux
-            patterns SRI/PRIIPS étendus et l'auto-alimentation MRE → biblio).
-            <strong>Découverte automatique via ESMA FIRDS</strong> (223 868 fonds européens scannés).
+            EUR-Lex / EFAMA / ESMA FIRDS). <strong>53 659 PDF stockés, 104 617
+            versions historisées, 11 920 ISIN avec DIC capturé, 1 122 781 ISIN en
+            watchlist</strong> au 11 juin 2026 — SRI renseigné sur
+            <strong>87,9 % des supports indexés</strong>, frais courants sur 75,6 %
+            (patterns SRI/PRIIPS étendus et auto-alimentation MRE → biblio).
+            <strong>Découverte automatique via ESMA FIRDS</strong>.
             Cap couverture France ≥ 95 % à fin 2028, à coût marginal d'infrastructure (3-5 K€/an).
           </p>
         </div>
@@ -100,27 +100,27 @@ export default function BiblioVivante() {
 
         <div className="mt-14 grid md:grid-cols-2 gap-8">
           <div className="bg-mre-bleu text-white rounded-xl p-8">
-            <h3 className="text-2xl font-bold mb-4">Volume au 27 mai 2026</h3>
+            <h3 className="text-2xl font-bold mb-4">Volume au 11 juin 2026</h3>
             <div className="space-y-3 text-lg">
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>PDF binaires stockés (S3 Scaleway)</span>
-                <strong>46 677+</strong>
+                <strong>53 659</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>Versions historisées</span>
-                <strong>85 334+</strong>
+                <strong>104 617</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>ISIN avec DIC capturé</span>
-                <strong>9 012</strong>
+                <strong>11 920</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>ISIN en watchlist (post-ESMA FIRDS)</span>
-                <strong>306 320</strong>
+                <strong>1 122 781</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>DIC supports indexés (métadonnées)</span>
-                <strong>5 533</strong>
+                <strong>11 950</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>DIC contrats indexés</span>
@@ -128,7 +128,7 @@ export default function BiblioVivante() {
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>Sanctions ACPR récentes</span>
-                <strong>70 décisions</strong>
+                <strong>100 décisions</strong>
               </div>
               <div className="flex justify-between">
                 <span>Règlements UE consolidés FR</span>
