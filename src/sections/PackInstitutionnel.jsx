@@ -19,17 +19,17 @@ const DOCUMENTS = [
   },
   {
     titre: "Note couche IA souveraine",
-    sous: "Preuve technique 11 mai 2026",
+    sous: "Preuve technique 11 mai 2026 · architecture actualisée juin 2026",
     detail:
-      "Architecture validée bout-en-bout — Mistral Small 3.2-24B FP8 sur GPU H100 Scaleway fr-par-2. Tunnel SSH chiffré, token Bearer 32 octets par client. Allumée à la demande (~ 5 % du temps), coût marginal < 0,30 € par dossier complexe. Aucun appel cloud étranger.",
+      "Architecture validée bout-en-bout sur GPU H100 Scaleway (preuve 11/05/2026), puis basculée sur Scaleway Generative APIs (Paris, UE) — Mistral Small 3.2-24B, facturation à l'usage, garde-fou anti-invention (toute valeur absente de la source est rejetée). Allumée à la demande (~ 5 % du temps), coût marginal < 0,30 € par dossier complexe. Aucun appel cloud étranger.",
     icone: "🤖",
     couleur: "#1e3a8a",
   },
   {
     titre: "Certification AMADEO 49/49",
-    sous: "Preuve qualité audit · rapport v7 régénéré 17/05/2026",
+    sous: "Preuve qualité audit · diagnostic régénéré 11/06/2026",
     detail:
-      "Dossier témoin réel anonymisé (Roland Gaudet AMADEO Excellence Vie) — 13 PDFs croisés contre 13 textes réglementaires. 49 vérifications-clés certifiées 100 % conformes (11/05/2026). Score MRE v7 (17/05/2026) : 12 ECART_MAJEUR · 17 TENSION · 24 ALIGNE · 23 ELEMENT_ABSENT · 56 INFO = 132 observations totales.",
+      "Dossier témoin réel anonymisé (Roland Gaudet AMADEO Excellence Vie) — 13 PDFs croisés contre 13 textes réglementaires. 49 vérifications-clés certifiées 100 % conformes (11/05/2026), audit d'orfèvre complet 07/06/2026. Score MRE (moteur du 11/06/2026) : 8 ECART_MAJEUR · 40 TENSION · 31 ALIGNE · 32 ELEMENT_ABSENT · 63 INFO = 174 observations totales.",
     icone: "✅",
     couleur: "#047857",
   },

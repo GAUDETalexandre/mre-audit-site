@@ -22,7 +22,7 @@ export default function Hero() {
             réglementaire <strong>(PRIIPs · DDA · POG · SFDR · UCITS · Solvabilité&nbsp;2 ·
             ACPR · AMF)</strong>. Conçue pour les <strong className="text-mre-bleu">directions
             conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
-            et autorités de tutelle</strong>. <strong>Plus de 330 détecteurs</strong> en production sur 23 grands domaines réglementaires (chiffre vérifié 05/06/2026, recompte exhaustif du code source), enrichi d'une <strong>cartographie capitalistique 25 groupes / 53 SGP</strong> (cessions M&A tracées, conflits d'intérêts qualifiés),
+            et autorités de tutelle</strong>. <strong>Plus de 330 détecteurs</strong> en production sur 23 grands domaines réglementaires (chiffre vérifié 05/06/2026, recompte exhaustif du code source), enrichi d'une <strong>cartographie capitalistique 100 groupes / 150 SGP</strong> (cessions M&A tracées, conflits d'intérêts qualifiés),
             chaque écart sourcé verbatim — article cité, considérant UE, sanction de précédent.
           </p>
 
@@ -65,7 +65,7 @@ export default function Hero() {
               <span className="text-green-600 font-bold">●</span> 53 659 PDF en bibliothèque vivante · 11 920 ISIN avec DIC capturé (au 11/06/2026)
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 16 modules sentinelles + non-régression 3 témoins
+              <span className="text-green-600 font-bold">●</span> 38 modules de tests · non-régression 35/35 vérifiée 11/06/2026
             </span>
             <span className="flex items-center gap-2">
               <span className="text-green-600 font-bold">●</span> AMADEO 49/49 vérifications-clés conformes (11/05)
@@ -80,44 +80,44 @@ export default function Hero() {
         <div className="fade-up">
           <div className="relative bg-white rounded-2xl shadow-2xl border border-gray-200 p-8">
             <div className="text-xs font-mono text-mre-gris mb-4">
-              MRE_DIAG · synthèse d'écart
+              MRE_DIAG · synthèse d'écart — extraits réels du cas fictif Mercier (rapport du 11/06/2026)
             </div>
             <div className="space-y-3">
               <DetecteurLine
                 couleur="rouge"
-                titre="Note de conseil L521-2 / L522-5 absente"
-                detail="DDA art. 30 · Cass. 30/11/2023 n° 22-15.077"
+                titre="Note de conseil L521-2 absente"
+                detail="L. 521-2 CdA · DDA art. 20 · Cass. 2e civ. 30/11/2023 n° 22-15.077"
                 niveau="ÉCART MAJEUR"
               />
               <DetecteurLine
                 couleur="rouge"
-                titre="Concentration intra-groupe > 80 %"
-                detail="Étude AMF 10 juin 2021 (12/15 groupes > 50 %)"
+                titre="Tableau coûts au fil du temps / RIY manquant"
+                detail="Règlement (UE) 1286/2014 art. 8 §3 f) + Annexe VII"
+                niveau="ÉCART MAJEUR"
+              />
+              <DetecteurLine
+                couleur="rouge"
+                titre="Présentation cumulée des frais absente du relevé"
+                detail="A. 522-1 CdA (arrêté du 20 juin 2024, vigueur 01/01/2025)"
                 niveau="ÉCART MAJEUR"
               />
               <DetecteurLine
                 couleur="orange"
-                titre="Vulnérabilité — adhérent 75 ans"
-                detail="Rapport ACPR-AMF 12/12/2018"
-                niveau="TENSION"
-              />
-              <DetecteurLine
-                couleur="orange"
-                titre="KYC LCB-FT non transmis"
-                detail="L561-5 CMF · encours > 50 k€"
+                titre="Vulnérabilité présumée — adhérente 66 ans"
+                detail="Rapport ACPR-AMF déc. 2018 + DDA art. 30"
                 niveau="TENSION"
               />
               <DetecteurLine
                 couleur="vert"
-                titre="DIC daté du 2026-02-05 (3 mois)"
-                detail="Règlement (UE) 1286/2014 art. 10"
+                titre="Capital garanti 32 % ≥ seuil 30 % (profil équilibré)"
+                detail="EIOPA POG BoS-16/071 · DDA art. 30 · L. 522-5 CdA"
                 niveau="ALIGNÉ"
               />
             </div>
             <div className="mt-6 pt-4 border-t border-gray-200 flex justify-between text-xs">
-              <span className="text-mre-gris">Exposition cumulée</span>
+              <span className="text-mre-gris">139 observations sur le périmètre</span>
               <span className="font-bold text-mre-rouge">
-                CRITIQUE · 33 070 – 99 209 €
+                6 écarts majeurs · 14 tensions · 43 éléments absents
               </span>
             </div>
           </div>

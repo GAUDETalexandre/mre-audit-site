@@ -131,8 +131,8 @@ export default function BiblioVivante() {
                 <strong>100 décisions</strong>
               </div>
               <div className="flex justify-between">
-                <span>Règlements UE consolidés FR</span>
-                <strong>13 textes</strong>
+                <span>Textes réglementaires consolidés (UE + FR)</span>
+                <strong>20 textes</strong>
               </div>
             </div>
           </div>
