@@ -14,7 +14,7 @@ export default function Probleme() {
           </h2>
           <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-base">
             2 107 Md€ d'assurance-vie fin 2025 (France Assureurs) · 141 Md€ de PER T3 2025 (Ministère de l'Économie, 12,7 M titulaires).
-            ~ 12 000 acteurs supervisés face à ~ 1 500 ETP ACPR + AMF cumulés.
+            ~ 12 000 acteurs supervisés face à ~ 1 600 ETP ACPR + AMF cumulés (ACPR ~ 1 100 · AMF ~ 530).
             Chaque contrat = 30-50 documents sur sa durée de vie. L'asymétrie
             est structurelle.
           </p>

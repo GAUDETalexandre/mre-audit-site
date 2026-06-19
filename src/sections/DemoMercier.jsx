@@ -82,7 +82,7 @@ export default function DemoMercier() {
                   Capital Patrimoine Vie
                 </h4>
                 <span className="text-xs font-mono text-mre-gris">
-                  139 observations · rapport régénéré 11/06/2026
+                  139 observations · rapport régénéré 17/06/2026
                 </span>
               </div>
 
@@ -90,8 +90,8 @@ export default function DemoMercier() {
 
               <div className="mt-4 grid grid-cols-3 gap-2 text-center">
                 <Stat label="Écarts majeurs" valeur="6" couleur="#B91C1C" />
-                <Stat label="Tensions" valeur="14" couleur="#B45309" />
-                <Stat label="Éléments absents" valeur="43" couleur="#7F1D1D" />
+                <Stat label="Tensions" valeur="12" couleur="#B45309" />
+                <Stat label="Éléments absents" valeur="44" couleur="#7F1D1D" />
               </div>
 
               <div className="mt-4 space-y-2 text-xs">

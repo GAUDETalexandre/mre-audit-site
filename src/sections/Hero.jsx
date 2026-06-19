@@ -22,7 +22,7 @@ export default function Hero() {
             réglementaire <strong>(PRIIPs · DDA · POG · SFDR · UCITS · Solvabilité&nbsp;2 ·
             ACPR · AMF)</strong>. Conçue pour les <strong className="text-mre-bleu">directions
             conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
-            et autorités de tutelle</strong>. <strong>Plus de 330 détecteurs</strong> en production sur 23 grands domaines réglementaires (chiffre vérifié 05/06/2026, recompte exhaustif du code source), enrichi d'une <strong>cartographie capitalistique 100 groupes / 150 SGP</strong> (cessions M&A tracées, conflits d'intérêts qualifiés),
+            et autorités de tutelle</strong>. <strong>Plus de 400 points de contrôle</strong> en production sur <strong>8 familles de produits</strong> — de l'assurance vie à la <strong>prévoyance (Madelin, collective, TNS)</strong>, la SCPI et le PEA (recompte du code source au 17/06/2026), enrichi d'une <strong>cartographie capitalistique 100 groupes / 150 SGP</strong> (cessions M&A tracées, conflits d'intérêts qualifiés),
             chaque écart sourcé verbatim — article cité, considérant UE, sanction de précédent.
           </p>
 
@@ -62,10 +62,10 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-6 text-sm text-mre-gris">
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 53 659 PDF en bibliothèque vivante · 11 920 ISIN avec DIC capturé (au 11/06/2026)
+              <span className="text-green-600 font-bold">●</span> 59 134 PDF en bibliothèque vivante · 14 394 ISIN avec DIC capturé (au 17/06/2026)
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 38 modules de tests · non-régression 35/35 vérifiée 11/06/2026
+              <span className="text-green-600 font-bold">●</span> 38 modules de tests · non-régression 35/35 vérifiée 16/06/2026
             </span>
             <span className="flex items-center gap-2">
               <span className="text-green-600 font-bold">●</span> AMADEO 49/49 vérifications-clés conformes (11/05)
@@ -80,7 +80,7 @@ export default function Hero() {
         <div className="fade-up">
           <div className="relative bg-white rounded-2xl shadow-2xl border border-gray-200 p-8">
             <div className="text-xs font-mono text-mre-gris mb-4">
-              MRE_DIAG · synthèse d'écart — extraits réels du cas fictif Mercier (rapport du 11/06/2026)
+              MRE_DIAG · synthèse d'écart — extraits réels du cas fictif Mercier (rapport du 17/06/2026)
             </div>
             <div className="space-y-3">
               <DetecteurLine
@@ -117,7 +117,7 @@ export default function Hero() {
             <div className="mt-6 pt-4 border-t border-gray-200 flex justify-between text-xs">
               <span className="text-mre-gris">139 observations sur le périmètre</span>
               <span className="font-bold text-mre-rouge">
-                6 écarts majeurs · 14 tensions · 43 éléments absents
+                6 écarts majeurs · 12 tensions · 44 éléments absents
               </span>
             </div>
           </div>

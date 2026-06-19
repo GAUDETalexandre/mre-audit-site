@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import Hero from "./sections/Hero.jsx";
 import Probleme from "./sections/Probleme.jsx";
 import Solution from "./sections/Solution.jsx";
+import ExAnte from "./sections/ExAnte.jsx";
 import DemoMercier from "./sections/DemoMercier.jsx";
 import BiblioVivante from "./sections/BiblioVivante.jsx";
 import Extensibilite from "./sections/Extensibilite.jsx";
@@ -21,6 +22,7 @@ export default function App() {
         <Hero />
         <Probleme />
         <Solution />
+        <ExAnte />
         <DemoMercier />
         <BiblioVivante />
         <Extensibilite />

@@ -2,16 +2,16 @@ import React from "react";
 
 const DOCUMENTS = [
   {
-    titre: "Business Plan v5",
-    sous: "Édition institutionnelle 12 mai 2026",
+    titre: "Business Plan — édition refondue",
+    sous: "Édition institutionnelle 15 juin 2026",
     detail:
-      "29 pages — Synthèse exécutive · Le constat et l'asymétrie ACPR/AMF · Les 2 innovations couplées (bibliothèque vivante + moteur révélateur d'écart) · 13 textes réglementaires couverts · TAM/SAM/SOM · Matrice fonctionnelle MRE vs marché · Le créneau non-occupé · Pricing 3 paliers · Unit economics (marge brute > 99 %) · Équipe + méthode IA-assistée · Engagement Entreprise Adaptée · Roadmap 24 mois.",
+      "14 parties — Synthèse exécutive · Porteur, genèse et équipe · Étude de marché (taille, asymétrie ACPR/AMF, TAM/SAM/SOM) · Analyse concurrentielle · Positionnement et proposition de valeur · Le produit (8 familles de produits couvertes, plus de 400 points de contrôle, bibliothèque vivante ~13 000 supports, IA bornée anti-invention) · Stratégie commerciale (2 mouvements : distribution AGÉA + institutionnel) · Modèle économique et tarification (3 paliers, plafonds d'usage) · Moyens et plan d'effectifs · Cadre juridique et capital · Prévisions financières (trajectoire en J-curve, équilibre net en An 3) · Vision · Risques et mitigation · Calendrier et jalons.",
     icone: "📊",
     couleur: "#003a70",
   },
   {
-    titre: "Pitch deck v5",
-    sous: "13 slides A4 paysage · 12 mai 2026",
+    titre: "Pitch deck",
+    sous: "13 slides A4 paysage · 22 mai 2026",
     detail:
       "Format pitch institutionnel — problème · pourquoi maintenant · solution · différenciation · couche IA souveraine · marché · modèle économique · traction (49/49 certif AMADEO) · roadmap · équipe + méthode · engagement société · demande d'accompagnement institutionnel. Disponible sur demande qualifiée au format PDF / PPTX.",
     icone: "🎯",
@@ -27,9 +27,9 @@ const DOCUMENTS = [
   },
   {
     titre: "Certification AMADEO 49/49",
-    sous: "Preuve qualité audit · diagnostic régénéré 11/06/2026",
+    sous: "Preuve qualité audit · diagnostic régénéré 16/06/2026",
     detail:
-      "Dossier témoin réel anonymisé (Roland Gaudet AMADEO Excellence Vie) — 13 PDFs croisés contre 13 textes réglementaires. 49 vérifications-clés certifiées 100 % conformes (11/05/2026), audit d'orfèvre complet 07/06/2026. Score MRE (moteur du 11/06/2026) : 8 ECART_MAJEUR · 40 TENSION · 31 ALIGNE · 32 ELEMENT_ABSENT · 63 INFO = 174 observations totales.",
+      "Dossier témoin réel anonymisé (Roland Gaudet AMADEO Excellence Vie) — 13 PDFs croisés contre 13 textes réglementaires. 49 vérifications-clés certifiées 100 % conformes (11/05/2026), audit d'orfèvre complet 07/06/2026. Score MRE (moteur du 16/06/2026) : 8 ECART_MAJEUR · 33 TENSION · 32 ALIGNE · 30 ELEMENT_ABSENT · 71 INFO = 174 observations totales.",
     icone: "✅",
     couleur: "#047857",
   },

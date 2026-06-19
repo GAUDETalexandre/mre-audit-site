@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 const NAV = [
   { id: "probleme", label: "Constat" },
   { id: "solution", label: "Solution" },
+  { id: "ex-ante", label: "Avant la signature" },
   { id: "demo", label: "Démo" },
   { id: "biblio", label: "Bibliothèque vivante" },
   { id: "extension", label: "Extension produits" },

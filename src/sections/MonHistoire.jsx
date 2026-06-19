@@ -1,10 +1,11 @@
 import React from "react";
 
 const ETAPES = [
+  { annee: "2011", titre: "Crédit Agricole", detail: "Premier poste de conseiller — près d'un an au Crédit Agricole, avant l'entrée dans l'assurance." },
   { annee: "2012", titre: "Allianz", detail: "Démarrage chez Allianz France. Six années de terrain — contrats, devoir de conseil, réalité des dossiers d'agence." },
   { annee: "2016", titre: "CGPC validé", detail: "Obtention du Certificat de Gestion de Patrimoine Certifié — diplôme de référence du conseil patrimonial, exigeant et technique." },
   { annee: "2018", titre: "Agent général A2P", detail: "Création de ma propre structure : agent général AXA Prévoyance et Patrimoine. Quatre années à porter mon agence et tenir le devoir de conseil au quotidien." },
-  { annee: "2022", titre: "Rupture santé", detail: "Fermeture de l'entreprise pour raison de santé. Une rupture qui m'a permis de regarder le métier autrement et de prendre le recul nécessaire pour identifier ce qui manquait au marché." },
+  { annee: "2022", titre: "Rupture santé", detail: "Fermeture de l'entreprise pour raison de santé — mais poursuite de l'activité de conseil auprès de nombreux clients. Une étape qui m'a permis de regarder le métier autrement et d'identifier ce qui manquait au marché." },
   { annee: "2026", titre: "RQTH", detail: "Reconnaissance de la Qualité de Travailleur Handicapé obtenue en 2026. Ouvre l'éligibilité au statut TIH (Travailleur Indépendant Handicapé) puis Entreprise Adaptée dès la première embauche." },
   { annee: "13 avril 2026", titre: "Démarrage de MRE", detail: "Lancement officiel du projet. Conception itérative de l'architecture du moteur et de la bibliothèque vivante. Quinze années de terrain incorporées dans la logique métier du produit." },
   { annee: "Mai 2026", titre: "Sprint de construction", detail: "Quatre semaines de construction intensive. Le projet est le fruit de ma connaissance métier de quinze ans, adossée à une IA générative comme outil d'exécution (écriture du code, des tests, de la documentation). Chaque détecteur, chaque seuil, chaque référence réglementaire résulte d'une décision humaine experte. L'IA accélère ; l'expert décide ; le rapport cite. C'est cette méthode qui a permis d'obtenir des résultats probants en peu de temps." },
@@ -64,10 +65,10 @@ export default function MonHistoire() {
                   Parcours en bref
                 </div>
                 <ul className="space-y-1.5 text-sm text-mre-ardoise">
-                  <li>• 10 ans dans l'assurance vie (2012-2022)</li>
-                  <li>• 6 ans Allianz · 4 ans agent général A2P AXA</li>
-                  <li>• Diplôme CGPC 2016</li>
-                  <li>• Reconnu Travailleur Handicapé (RQTH)</li>
+                  <li>• Plus de 10 ans en gestion de patrimoine et assurance vie</li>
+                  <li>• ~ 1 an Crédit Agricole · 6 ans Allianz · 4 ans agent général A2P AXA</li>
+                  <li>• Conseil poursuivi auprès de nombreux clients après 2022</li>
+                  <li>• Diplôme CGPC 2016 · Reconnu Travailleur Handicapé (RQTH)</li>
                 </ul>
               </div>
             </div>
@@ -116,15 +117,14 @@ export default function MonHistoire() {
 
             <div className="mt-6 bg-mre-beige border-l-4 border-mre-bleu rounded-r-xl p-6">
               <div className="text-xs font-bold uppercase tracking-widest text-mre-bleu mb-2">
-                Validation triple casquette — mai 2026
+                Maturité et antériorité
               </div>
               <p className="text-sm text-mre-ardoise leading-relaxed">
-                Évaluation indépendante du moteur sur dossiers réels selon la
-                grille d'un <strong>contrôleur ACPR + ingénieur RegTech senior +
-                conseiller patrimonial expérimenté</strong> : note moyenne
-                <strong> 9,8 / 10</strong> sur les axes neutralité, traçabilité,
-                couverture réglementaire, anti-hallucination. Antériorité PI
-                fixée par dépôt eSoleau du 19 avril 2026.
+                Moteur <strong>opérationnel et non-régressé</strong> — contrôles
+                témoins systématiquement au vert, deux versions (connectée et
+                100 % locale), lecture de tous les formats (OCR, ~ 100 % du marché).
+                Antériorité de propriété intellectuelle fixée par dépôt
+                <strong> eSoleau du 19 avril 2026</strong>.
               </p>
             </div>
           </div>

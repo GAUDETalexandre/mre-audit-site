@@ -5,7 +5,7 @@ const ENGAGEMENTS = [
     label: "01 — Frugale",
     titre: "IA souveraine allumée à la demande",
     detail:
-      "La couche IA Mistral n'est active que sur les cas dégradés (signature manuscrite, OCR tableau défaillant). Le reste du temps, l'instance GPU est éteinte. Empreinte carbone réduite par construction, coût marginal inférieur à 0,30 € par dossier complexe.",
+      "La couche IA Mistral n'est active que sur les cas dégradés (signature manuscrite, OCR tableau défaillant). Le reste du temps, aucune ressource IA n'est consommée (facturation à l'usage, ~ 95 % du temps inactive). Empreinte carbone réduite par construction, coût marginal inférieur à 0,30 € par dossier complexe.",
     cadre: "Sobriété énergétique · alignement DPEF (art. L. 225-102-1 Code commerce)",
     couleur: "#047857",
     bg: "#ECFDF5",
@@ -14,7 +14,7 @@ const ENGAGEMENTS = [
     label: "02 — Souveraine",
     titre: "Modèle français · hébergement français",
     detail:
-      "Modèle Mistral Small 3.2-24B open-source Apache 2.0, hébergé sur GPU H100 Scaleway zone fr-par-2 (Paris). Tunnel SSH chiffré, token Bearer 32 octets par client. Aucune donnée client ne quitte l'infrastructure française. Conforme RGPD, secret professionnel L. 511-33 CMF.",
+      "Modèle Mistral Small 3.2-24B open-source Apache 2.0, via les Generative APIs Scaleway (région Paris, UE), facturation à l'usage. Aucune donnée client ne quitte l'infrastructure française. Conforme RGPD, secret professionnel L. 511-33 CMF.",
     cadre: "Conformité commande publique 2026+ · pas d'API cloud étranger",
     couleur: "#003a70",
     bg: "#EFF6FF",
@@ -85,7 +85,7 @@ export default function EngagementSociete() {
           <p className="text-lg italic leading-relaxed">
             « L'IA ne sait pas ce qu'est un fonds eurocroissance, une concentration
             intra-groupe ou un FGAP non couvert. Mes quinze ans de terrain en gestion
-            de patrimoine ont guidé chacun des plus de 330 détecteurs MRE. L'IA m'a aidé à
+            de patrimoine ont guidé chacun des plus de 400 détecteurs MRE. L'IA m'a aidé à
             écrire le code, à industrialiser les tests, à produire la documentation —
             mais chaque seuil, chaque article cité, chaque qualification résulte
             d'une décision humaine experte. »

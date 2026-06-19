@@ -14,7 +14,7 @@ const ETAPES = [
   {
     n: "03",
     titre: "9 couches d'audit en parallèle",
-    detail: "Plus de 330 détecteurs en production sur 23 grands domaines réglementaires (chiffre vérifié 05/06/2026 par recompte exhaustif du code source). Chaque écart sourcé : article CdA / DDA / PRIIPs / SFDR / UCITS cité, considérant UE intégral, sanction ACPR/AMF de précédent (H2O AM AMF 93 M€ confirmé Conseil d'État 13/06/2025, Generali Vie ACPR 10 M€ 2020, Mutex 8 M€ 2022, Abeille Vie 3,5 M€ 2023, CARCO 500 K€ 2025, Cardif Assurance Vie 2,5 M€ LCB-FT 2021).",
+    detail: "Plus de 400 points de contrôle dans le moteur (recompte du code source au 17/06/2026). Chaque écart sourcé : article CdA / DDA / PRIIPs / SFDR / UCITS cité, considérant UE intégral, sanction ACPR/AMF de précédent (H2O AM AMF 93 M€ confirmé Conseil d'État 13/06/2025, Generali Vie ACPR 10 M€ 2020, Mutex 8 M€ 2022, Abeille Vie 3,5 M€ 2023, CARCO 500 K€ 2025, Cardif Assurance Vie 2,5 M€ LCB-FT 2021).",
   },
   {
     n: "04",
@@ -24,12 +24,12 @@ const ETAPES = [
   {
     n: "05",
     titre: "Couche IA souveraine — à la demande",
-    detail: "Quand l'OCR bute sur un cas dégradé (signature manuscrite, tableau OCR défaillant), MRE escalade vers Mistral Small 3.2-24B FP8 hébergé Scaleway France. Allumée 5 % du temps · < 0,30 € / dossier · aucune donnée hors UE. L'IA lit, l'expert décide, le rapport cite.",
+    detail: "Quand l'OCR bute sur un cas dégradé (signature manuscrite, tableau OCR défaillant), MRE escalade vers Mistral Small 3.2-24B via les Generative APIs Scaleway (France, UE). Active ~ 5 % du temps · < 0,30 € / dossier · aucune donnée hors UE. L'IA lit, l'expert décide, le rapport cite.",
   },
   {
     n: "06",
     titre: "Notifications matérielles automatiques",
-    detail: "Cron quotidien détecte les changements matériels (downgrade SFDR, fusion initiateur, hausse frais, side-pocket apparu). Mail digest 8h + tableau de suivi avec 4 statuts pour audit ACPR.",
+    detail: "Cron quotidien détecte les changements matériels (downgrade SFDR, fusion initiateur, hausse frais, side-pocket apparu). Mail quotidien enrichi à 8h (SCPI + flash réglementaire) + digest réglementaire hebdomadaire (sanctions, recommandations, doctrines, textes) + tableau de suivi 4 statuts pour audit ACPR.",
   },
   {
     n: "07",
