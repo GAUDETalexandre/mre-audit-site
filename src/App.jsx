@@ -7,6 +7,7 @@ import ExAnte from "./sections/ExAnte.jsx";
 import DemoMercier from "./sections/DemoMercier.jsx";
 import BiblioVivante from "./sections/BiblioVivante.jsx";
 import Extensibilite from "./sections/Extensibilite.jsx";
+import Decomposition from "./sections/Decomposition.jsx";
 import Chiffres from "./sections/Chiffres.jsx";
 import PackInstitutionnel from "./sections/PackInstitutionnel.jsx";
 import EngagementSociete from "./sections/EngagementSociete.jsx";
@@ -26,6 +27,7 @@ export default function App() {
         <DemoMercier />
         <BiblioVivante />
         <Extensibilite />
+        <Decomposition />
         <Chiffres />
         <EngagementSociete />
         <PackInstitutionnel />

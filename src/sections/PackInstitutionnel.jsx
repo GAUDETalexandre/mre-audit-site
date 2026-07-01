@@ -13,7 +13,7 @@ const DOCUMENTS = [
     titre: "Pitch deck",
     sous: "13 slides A4 paysage · 22 mai 2026",
     detail:
-      "Format pitch institutionnel — problème · pourquoi maintenant · solution · différenciation · couche IA souveraine · marché · modèle économique · traction (49/49 certif AMADEO) · roadmap · équipe + méthode · engagement société · demande d'accompagnement institutionnel. Disponible sur demande qualifiée au format PDF / PPTX.",
+      "Format pitch institutionnel — problème · pourquoi maintenant · solution · différenciation · couche IA souveraine · marché · modèle économique · traction (49/49 vérifications certifiées) · roadmap · équipe + méthode · engagement société · demande d'accompagnement institutionnel. Disponible sur demande qualifiée au format PDF / PPTX.",
     icone: "🎯",
     couleur: "#B45309",
   },
@@ -26,10 +26,10 @@ const DOCUMENTS = [
     couleur: "#1e3a8a",
   },
   {
-    titre: "Certification AMADEO 49/49",
+    titre: "Certification 49/49 (dossier témoin)",
     sous: "Preuve qualité audit · diagnostic régénéré 16/06/2026",
     detail:
-      "Dossier témoin réel anonymisé (Roland Gaudet AMADEO Excellence Vie) — 13 PDFs croisés contre 13 textes réglementaires. 49 vérifications-clés certifiées 100 % conformes (11/05/2026), audit d'orfèvre complet 07/06/2026. Score MRE (moteur du 16/06/2026) : 8 ECART_MAJEUR · 33 TENSION · 32 ALIGNE · 30 ELEMENT_ABSENT · 71 INFO = 174 observations totales.",
+      "Dossier témoin réel anonymisé (contrat d'assurance-vie multisupports, 13 pièces) — 13 PDFs croisés contre 13 textes réglementaires. 49 vérifications-clés certifiées 100 % conformes (11/05/2026), audit d'orfèvre complet 07/06/2026. Score MRE (moteur du 16/06/2026) : 8 ECART_MAJEUR · 33 TENSION · 32 ALIGNE · 30 ELEMENT_ABSENT · 71 INFO = 174 observations totales.",
     icone: "✅",
     couleur: "#047857",
   },

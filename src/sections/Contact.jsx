@@ -141,7 +141,7 @@ Envoyé depuis le formulaire mre-audit.fr le ${new Date().toLocaleString("fr-FR"
                   <span className="text-sm text-mre-ardoise">
                     <strong>Je souhaite recevoir le pack institutionnel</strong>
                     {" "}(Business Plan, Pitch deck, Note couche IA souveraine,
-                    Certification AMADEO 49/49, Étude de marché, Cas client anonymisé)
+                    Certification 49/49 (dossier témoin), Étude de marché, Cas client anonymisé)
                     après qualification de ma demande.
                   </span>
                 </label>

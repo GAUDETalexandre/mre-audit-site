@@ -34,7 +34,7 @@ const ETAPES = [
   {
     n: "07",
     titre: "Rapport ACPR-ready",
-    detail: "Synthèse 1 page + détail complet. Self-check intégré 8 axes vérifie la cohérence avec les documents source. Certification AMADEO 49/49 conformes sur dossier témoin réel. Aucun chiffre inventé.",
+    detail: "Synthèse 1 page + détail complet. Self-check intégré 8 axes vérifie la cohérence avec les documents source. Certification 49/49 conformes sur dossier témoin réel. Aucun chiffre inventé.",
   },
 ];
 

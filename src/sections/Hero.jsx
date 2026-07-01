@@ -18,7 +18,7 @@ export default function Hero() {
 
           <p className="mt-6 text-lg md:text-xl text-mre-gris leading-relaxed">
             MRE est la plateforme d'audit qui révèle les écarts factuels et
-            opposables entre les pièces d'un dossier d'épargne et le référentiel
+            vérifiables entre les pièces d'un dossier d'épargne et le référentiel
             réglementaire <strong>(PRIIPs · DDA · POG · SFDR · UCITS · Solvabilité&nbsp;2 ·
             ACPR · AMF)</strong>. Conçue pour les <strong className="text-mre-bleu">directions
             conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
@@ -62,13 +62,13 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-6 text-sm text-mre-gris">
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 59 134 PDF en bibliothèque vivante · 14 394 ISIN avec DIC capturé (au 17/06/2026)
+              <span className="text-green-600 font-bold">●</span> 71 711 PDF en bibliothèque vivante · 20 399 ISIN avec DIC capturé (au 01/07/2026)
             </span>
             <span className="flex items-center gap-2">
               <span className="text-green-600 font-bold">●</span> 38 modules de tests · non-régression 35/35 vérifiée 16/06/2026
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> AMADEO 49/49 vérifications-clés conformes (11/05)
+              <span className="text-green-600 font-bold">●</span> 49/49 vérifications-clés conformes sur dossier témoin (11/05)
             </span>
             <span className="flex items-center gap-2">
               <span className="text-green-600 font-bold">●</span> IA souveraine Mistral
