@@ -11,19 +11,24 @@ export default function Hero() {
           </span>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-mre-bleu leading-tight tracking-tight">
-            L'audit <span className="text-mre-rouge">inter-documents</span>
+            Comprendre la <span className="text-mre-rouge">réalité</span>
             <br />
-            de l'épargne réglementée.
+            des produits financiers.
           </h1>
 
           <p className="mt-6 text-lg md:text-xl text-mre-gris leading-relaxed">
-            MRE est la plateforme d'audit qui révèle les écarts factuels et
-            vérifiables entre les pièces d'un dossier d'épargne et le référentiel
-            réglementaire <strong>(PRIIPs · DDA · POG · SFDR · UCITS · Solvabilité&nbsp;2 ·
-            ACPR · AMF)</strong>. Conçue pour les <strong className="text-mre-bleu">directions
-            conformité, RCSI, contrôle permanent, audit interne, gouvernance produit
-            et autorités de tutelle</strong>. <strong>Plus de 400 points de contrôle</strong> en production sur <strong>8 familles de produits</strong> — de l'assurance vie à la <strong>prévoyance (Madelin, collective, TNS)</strong>, la SCPI et le PEA (recompte du code source au 17/06/2026), enrichi d'une <strong>cartographie capitalistique 100 groupes / 150 SGP</strong> (cessions M&A tracées, conflits d'intérêts qualifiés),
-            chaque écart sourcé verbatim — article cité, considérant UE, sanction de précédent.
+            MRE est une infrastructure en trois briques : une <strong>bibliothèque
+            documentaire historisée</strong> du marché de l'épargne, une brique de
+            <strong> décomposition</strong> qui reconstitue ce que chaque produit détient
+            réellement, et un <strong>moteur d'audit inter-documents</strong> qui confronte
+            les pièces d'un dossier au référentiel réglementaire <strong>(PRIIPs · DDA ·
+            POG · SFDR · UCITS · Solvabilité&nbsp;2 · ACPR · AMF)</strong>. Conçue pour les
+            <strong className="text-mre-bleu"> directions conformité, RCSI, contrôle permanent,
+            audit interne, gouvernance produit et autorités de tutelle</strong>.
+            <strong> Plus de 400 points de contrôle</strong> en production sur
+            <strong> 8 familles de produits</strong>, une <strong>cartographie capitalistique
+            100 groupes / 150 SGP</strong>, chaque écart sourcé verbatim — article cité,
+            considérant UE, sanction de précédent.
           </p>
 
           {/* 3 piliers MRE (ajouté 13 mai 2026) */}
@@ -62,13 +67,13 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-6 text-sm text-mre-gris">
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 71 711 PDF en bibliothèque vivante · 20 399 ISIN avec DIC capturé (au 01/07/2026)
+              <span className="text-green-600 font-bold">●</span> 111 259 documents · 434 135 versions historisées (au 31/08/2026)
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 38 modules de tests · non-régression 35/35 vérifiée 16/06/2026
+              <span className="text-green-600 font-bold">●</span> 82 508 compositions de fonds reconstruites sur pièce
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">●</span> 49/49 vérifications-clés conformes sur dossier témoin (11/05)
+              <span className="text-green-600 font-bold">●</span> 129 témoins de non-régression rejoués quotidiennement
             </span>
             <span className="flex items-center gap-2">
               <span className="text-green-600 font-bold">●</span> IA souveraine Mistral

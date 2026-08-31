@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 
 const NAV = [
   { id: "probleme", label: "Constat" },
-  { id: "solution", label: "Solution" },
-  { id: "ex-ante", label: "Avant la signature" },
+  { id: "infrastructure", label: "L'infrastructure" },
+  { id: "biblio", label: "Bibliothèque" },
+  { id: "decomposition", label: "Décomposition" },
+  { id: "solution", label: "Moteur d'audit" },
   { id: "demo", label: "Démo" },
-  { id: "biblio", label: "Bibliothèque vivante" },
   { id: "extension", label: "Extension produits" },
   { id: "pack", label: "Pack institutionnel" },
   { id: "histoire", label: "Fondateur" },
@@ -38,7 +39,7 @@ export default function Header() {
         </a>
 
         {/* Nav desktop */}
-        <nav className="hidden md:flex items-center gap-7">
+        <nav className="hidden md:flex items-center gap-5">
           {NAV.map((n) => (
             <a
               key={n.id}

@@ -1,39 +1,43 @@
 import React from "react";
 
+// ── Brique 1 — la Bibliothèque : mémoire documentaire du marché ──────────────
+// RÈGLE DE PUBLICATION : on décrit les FAMILLES de sources réglementaires et le
+// résultat (volumes, historisation) — jamais les canaux/portails/mécaniques
+// d'acquisition. Chiffres mesurés en base de production le 31/08/2026.
+
 const CADENCES = [
   {
     couleur: "#047857",
     label: "QUOTIDIEN",
     sources: [
-      "DIC PRIIPs supports UC (énumération AXA Kurtosys, 1h)",
-      "DIC contrats Allianz (14 KIDs, 4h)",
-      "DIC contrats Predica / Crédit Agricole / LCL (4h15)",
-      "SGP ISIN-direct (300 ISIN/batch, 4h30)",
-      "AMF SGP (CSV agréments, 7h30)",
+      "DIC PRIIPs des supports en unités de compte (initiateurs et distributeurs)",
+      "Documents réglementaires des contrats d'assurance-vie",
+      "Référentiels publics ESMA (FIRDS) et AMF (agréments SGP)",
+      "Certification automatique d'échantillons re-vérifiés sur la pièce stockée",
     ],
-    pourquoi: "La valeur d'un fonds change tous les jours — MRE suit en temps quasi réel.",
+    pourquoi: "La valeur et la documentation d'un support changent tous les jours — MRE suit en continu.",
   },
   {
     couleur: "#B45309",
-    label: "HEBDOMADAIRE",
+    label: "HEBDOMADAIRE & MENSUEL",
     sources: [
-      "Multi-canaux Kneip + Amundi + BNP + Goldman (dim 5h)",
-      "AXA range — 30 contrats (dim 6h)",
-      "Linxea WP-JSON — 250 docs (dim 6h30)",
-      "Refassu ACPR — registre intermédiaires (vendredi 7h)",
+      "Rapports annuels et inventaires publiés par les sociétés de gestion",
+      "Annexes réglementaires de frais des assureurs (art. A. 522-1 C. assur.)",
+      "Registre des intermédiaires (ACPR / Refassu)",
+      "Gammes et référencements des contrats",
     ],
-    pourquoi: "Les évolutions contractuelles et les changements d'agrément sont moins fréquents.",
+    pourquoi: "Les évolutions contractuelles et les inventaires suivent un rythme plus lent.",
   },
   {
     couleur: "#003a70",
-    label: "MENSUEL",
+    label: "VEILLE RÉGLEMENTAIRE",
     sources: [
-      "Sanctions ACPR (1er dimanche du mois 8h)",
+      "Sanctions ACPR et AMF (décisions publiques)",
       "Recommandations ACPR (2024-R-01 VFM, 2024-R-03 conseil…)",
       "Doctrines AMF (DOC-2012-12 frais, DOC-2020-03 greenwashing)",
       "Règlements UE consolidés (PRIIPs, DDA, POG, SFDR, Taxonomie)",
     ],
-    pourquoi: "La jurisprudence et la loi évoluent moins vite — mais MRE ne loupe rien.",
+    pourquoi: "La jurisprudence et la loi évoluent moins vite — mais rien ne doit passer.",
   },
 ];
 
@@ -43,21 +47,22 @@ export default function BiblioVivante() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <span className="inline-block text-mre-rouge text-xs font-bold uppercase tracking-widest">
-            Bibliothèque vivante
+            Brique 1 — la Bibliothèque
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-mre-bleu mt-3">
-            Une bibliothèque vivante, autonome, traçable.
+            Une mémoire documentaire du marché — vivante, historisée, traçable.
           </h2>
           <p className="text-mre-gris mt-4 max-w-3xl mx-auto text-lg">
             MRE industrialise la consultation des sources légalement obligées de
-            publier (Article 5 Règlement UE 1286/2014 PRIIPs, sites ACPR / AMF /
-            EUR-Lex / EFAMA / ESMA FIRDS). <strong>71 711 PDF stockés, 178 925
-            versions historisées, 20 399 ISIN avec DIC capturé, 1 554 751 ISIN en
-            watchlist</strong> au 1er juillet 2026 — indicateur de risque renseigné sur
-            <strong>15 104 supports</strong>, frais courants sur 12 089
-            (l'index s'élargit plus vite que l'enrichissement — point d'effort actuel).
-            <strong>Découverte automatique via ESMA FIRDS</strong>.
-            Cap couverture France ≥ 95 % à fin 2028, à coût marginal d'infrastructure (3-5 K€/an).
+            publier (article 5 du Règlement UE 1286/2014 PRIIPs, registres publics
+            ACPR / AMF / EUR-Lex / ESMA). L'objectif n'est pas de stocker des PDF :
+            chaque document est <strong>structuré, daté et conservé dans toutes ses
+            versions successives</strong> — ce qui permet de comparer les états du
+            marché dans le temps. <strong>111 259 documents, 434 135 versions
+            historisées, 33 600 supports avec DIC indexé</strong> au 31/08/2026 —
+            indicateur de risque renseigné sur <strong>31 012</strong> supports,
+            frais courants sur 30 392. Découverte automatique des instruments via
+            le référentiel ESMA FIRDS (2 168 744 instruments référencés).
           </p>
         </div>
 
@@ -100,50 +105,50 @@ export default function BiblioVivante() {
 
         <div className="mt-14 grid md:grid-cols-2 gap-8">
           <div className="bg-mre-bleu text-white rounded-xl p-8">
-            <h3 className="text-2xl font-bold mb-4">Volume au 1er juillet 2026</h3>
+            <h3 className="text-2xl font-bold mb-4">Volume au 31 août 2026</h3>
             <div className="space-y-3 text-lg">
               <div className="flex justify-between border-b border-white/20 pb-2">
-                <span>PDF binaires stockés (S3 Scaleway)</span>
-                <strong>71 711</strong>
+                <span>Documents binaires conservés (S3 Scaleway)</span>
+                <strong>111 259</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>Versions historisées</span>
-                <strong>178 925</strong>
+                <strong>434 135</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
-                <span>ISIN avec DIC capturé (métadonnées)</span>
-                <strong>20 399</strong>
+                <span>Supports avec DIC indexé (métadonnées par ISIN)</span>
+                <strong>33 600</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
                 <span>dont indicateur de risque renseigné</span>
-                <strong>15 104</strong>
+                <strong>31 012</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
-                <span>ISIN en watchlist (post-ESMA FIRDS)</span>
-                <strong>1 554 751</strong>
+                <span>Instruments référencés (ESMA FIRDS)</span>
+                <strong>2 168 744</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
-                <span>DIC contrats indexés</span>
-                <strong>145</strong>
+                <span>DIC de contrats indexés</span>
+                <strong>153</strong>
               </div>
               <div className="flex justify-between border-b border-white/20 pb-2">
-                <span>Sanctions ACPR récentes</span>
+                <span>Sanctions ACPR indexées</span>
                 <strong>100 décisions</strong>
               </div>
               <div className="flex justify-between">
-                <span>Textes réglementaires consolidés (UE + FR)</span>
-                <strong>44 textes</strong>
+                <span>Textes réglementaires en corpus (UE + FR)</span>
+                <strong>116 textes</strong>
               </div>
             </div>
           </div>
 
           <div className="bg-mre-beige border-l-4 border-mre-rouge rounded-r-xl p-8">
             <h3 className="text-xl font-bold text-mre-bleu mb-3">
-              Capacité court terme : détection d'évolutions
+              Pourquoi l'historique compte : le socle du « film »
             </h3>
             <p className="text-mre-ardoise leading-relaxed mb-4">
-              MRE va bientôt comparer chaque nouveau DIC PRIIPs entrant à sa
-              version précédente, et alerter automatiquement :
+              Parce que chaque version successive est conservée (434 135 à ce jour),
+              MRE peut comparer un document à son état antérieur et objectiver :
             </p>
             <ul className="space-y-2 text-sm text-mre-gris">
               <li className="flex gap-2">
@@ -160,11 +165,13 @@ export default function BiblioVivante() {
               </li>
               <li className="flex gap-2">
                 <span className="text-mre-rouge">→</span>
-                <span>« Une nouvelle sanction ACPR concerne L521-2 »</span>
+                <span>« Une nouvelle sanction ACPR concerne L. 521-2 »</span>
               </li>
             </ul>
             <div className="mt-5 text-xs italic text-mre-gris">
-              C'est ce qui rend MRE proactif, et non plus seulement réactif.
+              Le temps joue pour cette bibliothèque : plus elle fonctionne, plus la
+              profondeur historique devient difficile à reproduire. C'est le socle
+              de la trajectoire « de la photographie au film ».
             </div>
           </div>
         </div>

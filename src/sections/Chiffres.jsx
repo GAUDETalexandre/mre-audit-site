@@ -1,14 +1,15 @@
 import React from "react";
 
+// Chiffres mesurés en base de production le 31/08/2026 (sauf mention datée contraire).
 const CHIFFRES = [
-  { valeur: "71 711", unite: "PDF en bibliothèque", detail: "Bibliothèque vivante au 01/07/2026 · 20 399 supports avec DIC indexé (dont 15 104 avec indicateur de risque, 12 089 avec frais courants) · 1 554 751 ISIN en watchlist · découverte ESMA FIRDS automatique · auto-alimentation MRE → biblio des DIC clients indexés" },
-  { valeur: "400+", unite: "points de contrôle", detail: "Plus de 400 points de contrôle dans le moteur (recompte du code source au 17/06/2026 : 389 détecteurs en dur dans les modules + détecteurs définis en bibliothèque) · validation runtime sur dossiers témoins. Couvre PRIIPs · DDA · POG · SFDR · Solvabilité 2 · fiscalité 125-0 A / 990 I / 757 B CGI · eurocroissance · prévoyance (Madelin, collective, dépendance, TNS) · régimes obligatoires TNS · SCPI · PEA · produits structurés · Loi Industrie Verte · Sapin 2 · contrats mixtes AV+retraite · concentration et tunnel intra-groupe · UCITS · jurisprudence ACPR." },
-  { valeur: "100 / 150", unite: "groupes / SGP cartographiés", detail: "Cartographie capitalistique (compteurs du module vérifiés 11/06/2026) : 100 groupes ultimes français + étrangers actifs en France · 150 SGP actuelles + 8 SGP historiques cédées (AXA IM → BNP, Aviva → Aéma, Lyxor → Amundi, SGAM → Amundi, Sycomore → Generali…) · 59 assureurs · 96 distributeurs · qualification du conflit d'intérêt (INTRA/EX-INTRA/CONCURRENT/PARTENAIRE/EXTERNE)." },
-  { valeur: "13", unite: "textes réglementaires cités", detail: "Corpus opérationnel cité par les détecteurs (distinct des versions consolidées stockées en bibliothèque) : PRIIPs · DDA · SFDR · UCITS · POG · Solvabilité 2 · Code assurances · Code mutualité · CGI · ACPR · AMF · Loi Industrie Verte · ESAP" },
-  { valeur: "35 / 35", unite: "contrôles de non-régression", detail: "Vérifié 16/06/2026 — suite _test_dossiers_temoins : 35 contrôles (compteurs par qualification + codes clés) passés sur 3 dossiers témoins réels anonymisés. Moteur complet du jour : 3 dossiers témoins réels anonymisés (195 / 174 / 162 observations). 38 modules de tests automatisés dans le dépôt (cartographie SGP, concentration, eurocroissance, SFDR, tunnel intra-groupe, couches narratives, routeur, cohérence dashboard/rapport…)." },
-  { valeur: "< 0,30 €", unite: "coût IA / dossier complexe", detail: "Couche IA Mistral souveraine allumée à la demande · ~ 95 % du temps inactive · coût variable quasi nul → marge brute par abonné ~ 92 % (hypothèse de modèle)" },
-  { valeur: "100 %", unite: "souveraineté France/UE", detail: "Scaleway France · OVH · modèle IA Mistral open-source Apache 2.0 · aucune dépendance cloud US · conforme commande publique 2026+" },
-  { valeur: "0", unite: "hallucination", detail: "Patterns + verbatim cité du document source · règle de gouvernance verrouillée dans le code · l'IA lit, l'expert décide, le rapport cite" },
+  { valeur: "111 259", unite: "documents en bibliothèque", detail: "Bibliothèque vivante au 31/08/2026 · 434 135 versions historisées (chaque état successif conservé) · 33 600 supports avec DIC indexé (indicateur de risque renseigné sur 31 012, frais courants sur 30 392) · découverte automatique via le référentiel ESMA FIRDS (2 168 744 instruments) · auto-alimentation MRE → biblio des DIC clients indexés." },
+  { valeur: "17,1 M", unite: "lignes de composition", detail: "82 508 compositions de fonds reconstruites sur pièce (look-through) · 21 519 fonds décomposés sur les 33 598 suivis · 16 natures d'analyse toutes certifiées le 30/08/2026 par échantillon re-vérifié sur la pièce stockée — la porte de certification tourne chaque jour." },
+  { valeur: "20 847", unite: "UC vendues référencées", detail: "Le référentiel de l'univers réellement distribué en France : 20 847 unités de compte × 1 103 contrats × 28 assureurs (637 989 lignes UC×contrat), bâti sur les annexes réglementaires de frais (art. A. 522-1 C. assur.) publiées par les assureurs — frais et rétrocessions par ligne quand publiés." },
+  { valeur: "400+", unite: "points de contrôle", detail: "Plus de 400 points de contrôle dans le moteur (recompte certifié du code source au 08/07/2026 · validation runtime sur dossiers témoins). Couvre PRIIPs · DDA · POG · SFDR · Solvabilité 2 · fiscalité 125-0 A / 990 I / 757 B CGI · eurocroissance · prévoyance (Madelin, collective, dépendance, TNS) · régimes obligatoires TNS · SCPI · PEA · produits structurés · Loi Industrie Verte · Sapin 2 · concentration et tunnel intra-groupe · UCITS · jurisprudence ACPR." },
+  { valeur: "100 / 150", unite: "groupes / SGP cartographiés", detail: "Cartographie capitalistique (compteurs du module vérifiés 11/06/2026) : 100 groupes ultimes français + étrangers actifs en France · 150 SGP actuelles + 8 SGP historiques cédées (AXA IM → BNP, Aviva → Aéma, Lyxor → Amundi…) · 59 assureurs · 96 distributeurs · qualification du conflit d'intérêt (INTRA/EX-INTRA/CONCURRENT/PARTENAIRE/EXTERNE)." },
+  { valeur: "129", unite: "témoins de non-régression", detail: "Batterie de 129 contrôles rejoués quotidiennement sur la production (état au 30/08/2026) : chaque acquis du moteur, de la bibliothèque et de la décomposition est verrouillé par un témoin qui sait échouer. S'y ajoute la certification quotidienne automatique des natures de décomposition." },
+  { valeur: "< 0,30 €", unite: "coût IA / dossier complexe", detail: "Couche IA Mistral souveraine allumée à la demande · ~ 95 % du temps inactive · coût variable quasi nul → marge brute par abonné ~ 92 % (hypothèse de modèle)." },
+  { valeur: "100 %", unite: "souveraineté France/UE", detail: "Scaleway France · OVH · modèle IA Mistral open-source Apache 2.0 · aucune dépendance cloud US pour le traitement · conforme commande publique 2026+. Anti-hallucination : patterns + verbatim cité du document source — l'IA lit, l'expert décide, le rapport cite." },
 ];
 
 export default function Chiffres() {
@@ -23,8 +24,9 @@ export default function Chiffres() {
             Ce qu'il y a sous le capot.
           </h2>
           <p className="text-blue-200 mt-4 max-w-2xl mx-auto text-lg">
-            MRE n'est pas un MVP en présentation. C'est un moteur déjà
-            opérationnel sur des dossiers réels.
+            MRE n'est pas un MVP en présentation. C'est une infrastructure déjà
+            opérationnelle — bibliothèque, décomposition et moteur — mesurée en
+            base de production le 31/08/2026.
           </p>
         </div>
 

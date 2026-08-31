@@ -39,7 +39,7 @@ src/
       ├── Probleme.jsx       # Le constat marché (chiffres ACPR)
       ├── Solution.jsx       # 4 étapes + 3 piliers
       ├── DemoMercier.jsx    # Cas fictif Catherine MERCIER
-      ├── BiblioVivante.jsx  # 3 cadences crawler + volume
+      ├── BiblioVivante.jsx  # 3 cadences de veille + volumes
       ├── Extensibilite.jsx  # 10 produits financiers extensibles
       ├── Chiffres.jsx       # 8 chiffres clés (fond bleu)
       ├── MonHistoire.jsx    # Bio Alexandre Gaudet + photo

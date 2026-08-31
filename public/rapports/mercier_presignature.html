@@ -108,7 +108,7 @@
 </div>
 <script>
 (function(){
- var PREFIX="mre_note_05_PIECES_DE_DOSSIERS_demo_publiquemercier_catherine_capital.json_", TYPES="MRE_NOTES_TYPES";
+ var PREFIX="mre_note_demo_mercier_", TYPES="MRE_NOTES_TYPES";
  function q(sel,k){return document.querySelector(sel+'[data-k="'+(window.CSS&&CSS.escape?CSS.escape(k):k)+'"]');}
  function reveal(k){var n=q('.note',k);if(n)n.hidden=false;}
  function lire(key,def){try{return JSON.parse(localStorage.getItem(key)||def);}catch(e){return JSON.parse(def);}}
