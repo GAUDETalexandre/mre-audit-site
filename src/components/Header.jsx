@@ -6,6 +6,7 @@ const NAV = [
   { id: "biblio", label: "Bibliothèque" },
   { id: "decomposition", label: "Décomposition" },
   { id: "solution", label: "Moteur d'audit" },
+  { id: "ex-ante", label: "Avant la signature" },
   { id: "demo", label: "Démo" },
   { id: "extension", label: "Extension produits" },
   { id: "pack", label: "Pack institutionnel" },
