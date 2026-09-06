@@ -8,12 +8,14 @@ Page de garde de cahier d'anglais — génération au format A4 exact.
  1. efface l'ancien titre (composantes connexes entièrement contenues dans la
     zone du titre ; Big Ben, Tower Bridge et les petits traits décoratifs qui
     encadrent le titre sont conservés) ;
- 2. met la page à l'échelle A4 300 dpi (2480 x 3508 px) et normalise le fond
+ 2. efface le cadre fin qui longe les quatre bords de la page (option
+    --keep-frame pour le conserver) ;
+ 3. met la page à l'échelle A4 300 dpi (2480 x 3508 px) et normalise le fond
     en blanc pur ;
- 3. dessine le nouveau titre « ENGLISH » en lettres creuses (contour), sur un
+ 4. dessine le nouveau titre « ENGLISH » en lettres creuses (contour), sur un
     léger arc comme l'original, police Fredoka Bold (licence OFL, dossier fonts/) ;
- 4. allège tous les traits du dessin (opacité réduite, 30 % par défaut) ;
- 5. exporte un PNG 300 dpi et un PDF dont la page fait exactement 210 x 297 mm.
+ 5. allège tous les traits du dessin (opacité réduite, 30 % par défaut) ;
+ 6. exporte un PNG 300 dpi et un PDF dont la page fait exactement 210 x 297 mm.
 
 Dépendances : pillow, numpy, scipy, img2pdf   (pip install pillow numpy scipy img2pdf)
 
@@ -21,6 +23,7 @@ Exemples :
     python3 make_cover.py                       # sortie par défaut, opacité 30 %
     python3 make_cover.py --opacity 0.2         # traits encore plus légers
     python3 make_cover.py --title "ENGLISH" --no-arc
+    python3 make_cover.py --keep-frame          # conserve le cadre du bord de page
 """
 
 from __future__ import annotations
@@ -83,6 +86,37 @@ def erase_title(gray: np.ndarray, box: tuple[int, int, int, int]) -> np.ndarray:
 
     out = gray.copy()
     out[erase] = 255
+    return out
+
+
+def erase_frame(gray: np.ndarray, margin: int = 40, min_fill: float = 0.3, pad: int = 3) -> np.ndarray:
+    """Efface le cadre fin qui longe les quatre bords de la page.
+
+    Dans une bande de `margin` px le long de chaque bord, toute ligne (ou
+    colonne) dont plus de `min_fill` des pixels sont de l'encre est considérée
+    comme un trait du cadre ; la bande allant du bord jusqu'à `pad` px au-delà
+    du trait est mise à blanc. Sans cadre détecté, l'image est rendue inchangée.
+    Sur la maquette d'origine, seule la statue de la Liberté touche le cadre
+    (en bas) : ses deux traits de contour perdent leurs 2-3 derniers pixels.
+    """
+    h, w = gray.shape
+    ink = gray < INK_THRESHOLD
+    row_fill = ink.sum(axis=1) / w
+    col_fill = ink.sum(axis=0) / h
+    out = gray.copy()
+
+    top = [y for y in range(margin) if row_fill[y] > min_fill]
+    if top:
+        out[: max(top) + 1 + pad, :] = 255
+    bottom = [y for y in range(h - margin, h) if row_fill[y] > min_fill]
+    if bottom:
+        out[min(bottom) - pad :, :] = 255
+    left = [x for x in range(margin) if col_fill[x] > min_fill]
+    if left:
+        out[:, : max(left) + 1 + pad] = 255
+    right = [x for x in range(w - margin, w) if col_fill[x] > min_fill]
+    if right:
+        out[:, min(right) - pad :] = 255
     return out
 
 
@@ -243,12 +277,15 @@ def main() -> None:
     parser.add_argument("--letter-gap", type=float, default=3.0, help="espace entre lettres, hors contour (px source)")
     parser.add_argument("--arc-sagitta", type=float, default=ARC_SAGITTA_SRC, help="bombé de l'arc (px source)")
     parser.add_argument("--no-arc", action="store_true", help="titre droit au lieu de l'arc")
+    parser.add_argument("--keep-frame", action="store_true", help="conserve le cadre fin qui longe les bords de la page")
     parser.add_argument("--preview", type=Path, default=None, help="écrit aussi un aperçu réduit (PNG)")
     args = parser.parse_args()
 
-    # 1. Source en niveaux de gris, effacement de l'ancien titre, fond blanc.
+    # 1. Source en niveaux de gris, effacement de l'ancien titre et du cadre, fond blanc.
     src = np.asarray(Image.open(args.source).convert("L"))
     src = erase_title(src, TITLE_BOX_SRC)
+    if not args.keep_frame:
+        src = erase_frame(src)
     src = normalize_background(src)
 
     # 2. Mise à l'échelle A4.
