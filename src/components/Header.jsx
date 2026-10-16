@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const NAV = [
+  { id: "videos", label: "Vidéos" },
   { id: "probleme", label: "Constat" },
   { id: "infrastructure", label: "L'infrastructure" },
   { id: "biblio", label: "Bibliothèque" },

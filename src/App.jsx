@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header.jsx";
 import Hero from "./sections/Hero.jsx";
+import Videos from "./sections/Videos.jsx";
 import Probleme from "./sections/Probleme.jsx";
 import Infrastructure from "./sections/Infrastructure.jsx";
 import Solution from "./sections/Solution.jsx";
@@ -22,6 +23,7 @@ export default function App() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <Videos />
         <Probleme />
         <Infrastructure />
         <BiblioVivante />
